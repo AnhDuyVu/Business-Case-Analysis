@@ -9,7 +9,7 @@ These self-pace practice projects are important for me to practice to become a d
 <img src="https://www.clicdata.com/wp-content/uploads/2021/06/transfrom-data-actionable-insights.jpg"
 </p>
         
-# Solution of my projects
+# Summary of Projects
 
 Dataset | Links of Dataset | Project Details
 ---| ---| ---| 
