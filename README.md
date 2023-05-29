@@ -11,6 +11,6 @@ These self-pace practice projects are important for me to practice to become a d
         
 # Solution of my projects
 
-Dataset | Links of Dataset | Project Details | Solution folder
+Dataset | Links of Dataset | Project Details
 ---| ---| ---| ---|
-1.Brazillian E-Commerce Public Dataset by Olist | https://goo.by/6KfvY | Cohort Analysis by SQL in Azure Data Studio for sellers using Olist Ecommerce platform | 
+1.Brazillian E-Commerce Public Dataset by Olist | https://goo.by/6KfvY | Cohort Analysis by SQL in Azure Data Studio of Olist Dataset
