@@ -33,7 +33,7 @@ Cohort analysis is a useful way to compare groups of entities over time. Many im
 Cohort analysis help us have an overview of customer retention after a specifict period of time to have further customer behaviour analysis to make action plans to attract more cusstomers.
 
 # Cohort Analysis context
-The Olist platform connects small business sellers in Brazil with customers, these sellers will sell their products on Olist platform, so understanding wether sellers come back to the Olist platform is a important question for Olist company.
+The Olist platform connects small business sellers in Brazil with customers, these sellers will sell their products on Olist platform, so understanding whether sellers come back to the Olist platform is a important question for Olist company.
 I wwill work with Olist public dataset in Kaggle, using Olist_order_items_dataset.csv and Olist_order_datatet.csv to do cohort analysis of sellers in 2017 to see the retention rate of sellers and suggest recommendations.
 
 
