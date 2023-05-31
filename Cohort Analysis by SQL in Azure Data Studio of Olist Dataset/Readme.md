@@ -34,7 +34,7 @@ Cohort analysis help us have an overview of customer retention after a specifict
 
 # Cohort Analysis context
 The Olist platform connects small business sellers in Brazil with customers, these sellers will sell their products on Olist platform, so understanding whether sellers come back to the Olist platform is a important question for Olist company.
-I wwill work with Olist public dataset in Kaggle, using Olist_order_items_dataset.csv and Olist_order_datatet.csv to do cohort analysis of sellers in 2017 to see the retention rate of sellers and suggest recommendations.
+I will work with Olist public dataset in Kaggle, using Olist_order_items_dataset.csv and Olist_order_datatet.csv to do cohort analysis of sellers in 2017 to see the retention rate of sellers and suggest recommendations.
 
 
 
