@@ -36,6 +36,11 @@ Cohort analysis help us have an overview of customer retention after a specifict
 The Olist platform connects small business sellers in Brazil with customers, these sellers will sell their products on Olist platform, so understanding whether sellers come back to the Olist platform is a important question for Olist company.
 I will work with Olist public dataset in Kaggle, using Olist_order_items_dataset.csv and Olist_order_datatet.csv to do cohort analysis of sellers in 2017 to see the retention rate of sellers and suggest recommendations.
 
+# Result
+<p align="center"> 
+<img src="https://github.com/AnhDuyVu/Projects/blob/main/Cohort%20Analysis%20by%20SQL%20in%20Azure%20Data%20Studio%20of%20Olist%20Dataset/Cohort%20Analysis%20results.png"
+</p>
+
 # Olist customer insights and recommendation
 # Insights:
 1. 219 sellers that had order in Olist platform from January, 2017, when it ranked the highest number of ordered sellers in Olist platform in 2017, followed by decreasing dramatically by 25% through the first month and after 6 month the percentage of sellers used Olist platform decreased by nearly 50 %
