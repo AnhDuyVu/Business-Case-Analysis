@@ -85,10 +85,3 @@ pivot (min(pct)
        for subsequence_month in ("0","1","2","3","4","5","6","7","8","9","10","11")
        ) pivot_table
 order by acquisition_month
---observation of cohort analysis in 2017:
-
---1. 219 sellers that had order in Olist platform from January, 2017, when it ranked the highest number of ordered sellers in Olist platform in 2017, followed by decreasing dramatically by 25% through the first month and after 6 month the percentage of sellers used Olist platform decreased by nearly 50 %
---2. the retention rate of sellers over each month period decreased nearly 20%
-
---> insight of cohort analysis of Olist in 2017:
---after 6 month the retention rate of sellers using Olist platform decreased nearly 50% and the retention rate decrease significantly after the first month in 2017 by nearly 25% so that the marketing team of Olist need the action to investigate further analysis on the reason behind and emerge action plans in Feburary to increase the retention rate of sellers.
