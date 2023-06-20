@@ -3,7 +3,7 @@ I create this dashboard identify potential products and markets to focus on for 
 
 # 2. Data Modelling
 <p align="center"> 
-<img src="https://github.com/AnhDuyVu/Data-Analysis-Projects/blob/main/Sale%20Analysis%20for%20Global%20Superstore/Sale%20Analysis%20Dashboard.png"
+<img src="https://github.com/AnhDuyVu/Data-Analysis-Projects/blob/main/Sale%20Analysis%20for%20Global%20Superstore/Data%20Modelling.png"
 </p>
 
 # 3. Sale Analysis Dashboard
