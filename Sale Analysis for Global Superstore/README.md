@@ -1,12 +1,18 @@
 # 1. Business Context
 I create this dashboard identify potential products and markets to focus on for development. It's important to understand the distribution of revenue and profits in order to determine whether to promote a strong product in multiple markets or have different standout products for each market.
-# 2. Sale Analysis Dashboard
+
+# 2. Data Modelling
+<p align="center"> 
+<img src="https://github.com/AnhDuyVu/Data-Analysis-Projects/blob/main/Sale%20Analysis%20for%20Global%20Superstore/Sale%20Analysis%20Dashboard.png"
+</p>
+
+# 3. Sale Analysis Dashboard
 <p align="center"> 
 <img src="https://github.com/AnhDuyVu/Data-Analysis-Projects/blob/main/Sale%20Analysis%20for%20Global%20Superstore/Sale%20Analysis%20Dashboard.png"
 </p>
   
-# 3. Insight and Recommendation
-# 3.1 Insights
+# 4. Insight and Recommendation
+# 4.1 Insights
 **General Business Situation**
 
 In general, revenue has been steadily increasing from 2011 to the end of 2014, with a compound annual growth rate (CAGR) of 17.45%. However, within each year, revenue tends to increase steadily across all categories until the fourth quarter, after which it sharply declines in the first quarter of the following year.
@@ -38,7 +44,7 @@ The following sub-categories have the highest Profit Margin: Paper (24.24%), Lab
 
 Notably, Tables are the only product with a negative Profit Contribution (-4.45%) despite having a relatively high revenue (749K).
 
-# 3.2 Recommendation
+# 4.2 Recommendation
 
 Conduct research to understand the reasons for the usual revenue decline at the beginning of the year in order to develop appropriate business strategies.
 Continue to leverage business strategies in major markets such as APAC and EU, while expanding and exploring strategies for developing potential markets (with high CAGR) such as Canada and Africa. In the US, although it is a large market, the growth rate is slow, so a new business strategy is needed.
