@@ -43,3 +43,14 @@ order by sales.customer_id asc;
 2. Group sales.customer_id to calculate sum of price by customer_id to get total amount each customer spent at the restaurant.
 3. Order by sales.customer_id to display the data for well structure.
 
+## Results:
+| customer_id | total_sales |
+| ----------- | ----------- |
+| A           | 76          |
+| B           | 74          |
+| C           | 36          |
+
+Customer A spent 76$
+Customer B spent 74$
+Customer C spent 36$ at the restaurant
+
