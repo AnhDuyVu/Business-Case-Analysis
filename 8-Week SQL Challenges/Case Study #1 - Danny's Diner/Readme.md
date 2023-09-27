@@ -305,6 +305,42 @@ Customer B bought sushi just before become member.
 
 Customer C is not a member of the restaurant, so that he/she does not have the data of purchased before become member.
 
+# **8. What is the total items and amount spent for each member before they became a member?**
+
+````sql
+
+Select distinct sales.customer_id,
+       count(sales.product_id) over(partition by sales.customer_id) as total_product,
+       sum(menu.price) over(partition by sales.customer_id) as total_amount_spent
+from   dannys_diner.sales as sales
+inner  join dannys_diner.menu as menu on sales.product_id = menu.product_id
+inner  join dannys_diner.members as members on sales.customer_id = members.customer_id
+where  (sales.order_date - members.join_date) <0
+order by sales.customer_id asc;
+
+````
+## Steps:
+
+1. Merge table between sales, menu, members on product_id, customer_id to get the data of price, product_id
+2. Filter with criteria order_date < join_date to get the data before the customer became a member.
+3. Use window function to calculate count product_id partition by customer_id and sum price partition by customer_id to add new column total_product and total_amount_spent.
+4. Select customer_id, total_product, total_amount_spent to get the total items and amount spent for each customer before they became a member.
+
+## Results:
+
+| customer_id | total_product |	total_amount_spent |
+| ----------- | ------------- | ------------------ |
+| A           |	2             |	25                 |
+| B           |	3             |	40                 |
+
+Before they became a member:
+
+Customer A bought 2 products and spent 25$ at the restaurant.
+
+Customer B bought 3 products and spent 40$ at the restaurant.
+
+
+
 
 
 
