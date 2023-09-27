@@ -257,6 +257,55 @@ The first item bought by customer A after they became a member is curry
 The first item bought by customer B after they became a member is sushi
 The customer C is not a member of the restaurant so he/she does not have data of first buy.
 
+**7. Which item was purchased just before the customer became a member?**
+
+ ````sql
+with total_day_before_become_member as (
+  	   Select sales.customer_id,
+       menu.product_name,
+       min(join_date - order_date) as min_total_day_before_become_member
+       from dannys_diner.sales as sales
+       inner join dannys_diner.menu as menu on sales.product_id = menu.product_id
+       inner join dannys_diner.members as members on sales.customer_id = members.customer_id
+       where (sales.order_date - members.join_date) <0
+       group by sales.customer_id, menu.product_name),
+rank_purchase as (
+       Select customer_id,
+       product_name,
+       rank() over(partition by customer_id order by min_total_day_before_become_member asc) as rank_purchase
+       from total_day_before_become_member
+       group by customer_id, product_name, min_total_day_before_become_member)
+Select customer_id, 
+       product_name as purchase_just_before_become_member
+from rank_purchase
+where rank_purchase = 1;
+
+````
+
+## Steps:
+
+1. Create a CTE name 'total_day_before_become_member' to add column min_total_day_before_become_member to merge table between sales, menu, and members table on product_id, customer_id.
+2. From 'total_day_before_become_member' use dense_rank() function to rank by customer_id order by min_total_day_before_become_member ascending order.
+3. Group customer_id, product_name to calculate rank_purchase
+4. Create a CTE name 'rank_purchase' to add column 'rank_purchase' to the 'total_day_before_become_member' table
+5. From rank_purchase, select customer_id, product_name where rank_purchase = 1 to filter the products was purchased by the customer just before they became a member.
+
+## Results:
+| customer_id |	purchase_just_before_become_member |
+| ----------- | ---------------------------------- |
+| A	      | curry                              |
+| A           |	sushi                              |
+| B	      | sushi                              |
+
+Customer A bought curry and sushi just before become member.
+
+Customer B bought sushi just before become member.
+
+Customer C is not a member of the restaurant, so that he/she does not have the data of purchased before become member.
+
+
+
+
 
 
 
