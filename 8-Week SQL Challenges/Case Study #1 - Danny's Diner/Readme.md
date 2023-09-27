@@ -37,5 +37,7 @@ group by sales.customer_id
 order by sales.customer_id asc;
 
 ````
+## Steps:
 
+1. Use join to merge dannys_diner.sales with dannys_diner.menu on product_id to get the price of dishes on dannys_diner.menu table
 
