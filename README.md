@@ -1,7 +1,5 @@
 ## 🗺 **Duy's Portfolio**
-I am an experienced demand planner in supply chain with the passion in finding insight from data to come up with new better solutions for business, pursuit data analytic path.
-
-Technical skills: Excel, SQL, Power BI, Python
+Welcome to my data portfolio! Here, I document a summary of my hand-on projects in the data field
 
 # Project
 These self-pace practice projects are great for me to practice.
