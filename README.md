@@ -15,3 +15,8 @@ Dataset | Links of Dataset | Project Details
 ---| ---| ---| 
 1.Brazillian E-Commerce Public Dataset by Olist | https://goo.by/6KfvY | Cohort Analysis by SQL in Azure Data Studio of Olist Dataset
 2.Global Superstore Dataset | https://goo.by/nDpsn | Sale Analysis Dashboard 
+
+# PowerBI
+Dataset | Links of Dataset | Project Details
+---| ---| ---| 
+1.Global Superstore Dataset | https://goo.by/nDpsn | Sale Analysis Dashboard 
