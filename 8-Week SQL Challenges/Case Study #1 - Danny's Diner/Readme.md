@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Problem Statement](#Problem-Statement)
 - [Entity Relationship Diagram](#Entity-Relationship-Diagram)
-- [Question and My solution](#Question-and-My-Solution)
+- [Questions and my solutions](#Question-and-my-solution)
 
 All source data is in link: [here](https://8weeksqlchallenge.com/case-study-1/). 
 
@@ -23,5 +23,5 @@ Danny has provided us with a sample of his overall customer data due to privacy 
 # Entity Relationship Diagram  
 ![image](https://github.com/AnhDuyVu/Data-Analysis-Projects/assets/119872105/b542d482-5671-4c6d-97c7-117eb769bd9d)
 
-# Question and My Solution
+# Questions and my solutions
 
