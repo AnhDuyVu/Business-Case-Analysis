@@ -41,7 +41,7 @@ order by sales.customer_id asc;
 
 1. Use join to merge dannys_diner.sales with dannys_diner.menu on product_id to get the price of dishes on dannys_diner.menu table.
 2. Group sales.customer_id to calculate sum of price by customer_id to get total amount each customer spent at the restaurant.
-3. Order by sales.customer_id to display the data for well structure.
+3. Order by sales.customer_id to display the data ascending by customer_id
 
 ## Results:
 | customer_id | total_sales |
@@ -57,4 +57,36 @@ Customer B spent 74$ at the restaurant
 
 
 Customer C spent 36$ at the restaurant
+
+**2. How many days has each customer visited the restaurant?**
+
+````sql
+
+Select sales.customer_id,
+       count(distinct order_date) as number_day_customer_visited
+       from dannys_diner.sales
+       group by sales.customer_id
+       order by sales.customer_id asc;
+
+````
+## Steps:
+
+1. Group sales.customer_id to calculate count distinct order date by customer_id to get total days each customer visited the restaurant.
+   
+2. Order by sales.customer_id to display the data ascending by customer_id.
+
+## Results:
+| customer_id	| number_day_customer_visited |
+| ----------- | --------------------------- |
+|A            | 4                           |
+|B	       | 6                           |
+|C            | 2                           |
+
+Customer A has visỉted the restaurant 4 days
+
+Customer B has visỉted the restaurant 6 days
+
+Customer C has visỉted the restaurant 2 days
+
+
 
