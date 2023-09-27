@@ -1,4 +1,4 @@
-# About me
+🗺 Katie's Portfolio
 I am an experienced demand planner in supply chain with the passion in finding insight from data to come up with new better solutions for business, pursuit data analytic path.
 
 Technical skills: Excel, SQL, Power BI, Python
