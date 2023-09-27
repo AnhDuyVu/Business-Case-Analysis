@@ -13,7 +13,7 @@ Welcome to my data portfolio! Here, I document a summary of my hand-on projects 
 
 Dataset | Project Links | Project Details
 ---| ---| ---| 
-1.Brazillian E-Commerce Public Dataset by Olist | https://goo.by/6KfvY | Cohort Analysis by SQL in Azure Data Studio of Olist Dataset
+1.Brazillian E-Commerce Public Dataset by Olist | Cohort Analysis by SQL in Azure Data Studio of Olist Dataset | Cohort Analysis by SQL in Azure Data Studio of Olist Dataset
 2.8-week SQL Challenges |
 
 # PowerBI
