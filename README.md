@@ -9,7 +9,7 @@ Welcome to my data portfolio! Here, I document a summary of my hand-on projects 
 <img src="https://www.clicdata.com/wp-content/uploads/2021/06/transfrom-data-actionable-insights.jpg"
 </p>
         
-# Summary of Projects
+# SQL
 
 Dataset | Links of Dataset | Project Details
 ---| ---| ---| 
