@@ -39,5 +39,7 @@ order by sales.customer_id asc;
 ````
 ## Steps:
 
-1. Use join to merge dannys_diner.sales with dannys_diner.menu on product_id to get the price of dishes on dannys_diner.menu table
+1. Use join to merge dannys_diner.sales with dannys_diner.menu on product_id to get the price of dishes on dannys_diner.menu table.
+2. Group sales.customer_id to calculate sum of price by customer_id to get total amount each customer spent at the restaurant.
+3. Order by sales.customer_id to display the data for well structure.
 
