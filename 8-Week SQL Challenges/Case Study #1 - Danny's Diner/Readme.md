@@ -18,3 +18,5 @@ Danny wants to use the data to answer a few simple questions about his customers
 
 
 Danny has provided us with a sample of his overall customer data due to privacy issues - but he hopes that these examples are enough for us to write fully functioning SQL queries to help him answer his questions.
+
+## Entity Relationship Diagram
