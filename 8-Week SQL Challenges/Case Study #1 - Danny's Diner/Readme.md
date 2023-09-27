@@ -88,5 +88,43 @@ Customer B has visỉted the restaurant 6 days
 
 Customer C has visỉted the restaurant 2 days
 
+**3. What was the first item from the menu purchased by each customer?**
+
+````sql
+
+with order_date_rank as (
+       Select customer_id,
+       order_date,
+       dense_rank() over(order by order_date asc) as order_date_rank,
+       product_name
+       from dannys_diner.sales as sales
+       inner join dannys_diner.menu as menu on sales.product_id = menu.product_id
+       order by customer_id asc, order_date_rank asc)
+Select distinct customer_id,
+	   product_name
+from order_date_rank
+where order_date_rank = 1;
+
+````
+## Steps:
+1. Create a Common Table Expression (CTE) with name 'order_date_rank', create new column order_date_rank using dense_rank() to rank by the order_date ascending from the merge table between sales and menu.
+2. From 'order_date_rank' CTE table, select distinct customer_id with filter order_date_rank = 1 to find the first item from the menu purchased by each customer.
+
+## Results:
+
+| customer_id	| product_name |
+| ----------- | ------------ |
+| A	       | curry        |
+| A	       | sushi        |
+| B	       | curry        |
+| C	       | ramen        |
+
+Customer A placed an order for both curry and sushi simultaneously, making them the first items in the order.
+
+Customer B's first order is curry.
+
+Customer C's first order is ramen.
+
+
 
 
