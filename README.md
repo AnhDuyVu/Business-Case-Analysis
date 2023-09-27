@@ -17,6 +17,7 @@ Dataset | Links of Dataset | Project Details
 2.Global Superstore Dataset | https://goo.by/nDpsn | Sale Analysis Dashboard 
 
 # PowerBI
+
 Dataset | Links of Dataset | Project Details
 ---| ---| ---| 
-1.Global Superstore Dataset | https://goo.by/nDpsn | Sale Analysis Dashboard 
+1.Global Superstore Dataset | https://goo.by/nDpsn | Sale Analysis Dashboard
