@@ -51,6 +51,10 @@ order by sales.customer_id asc;
 | C           | 36          |
 
 Customer A spent 76$
+
+
 Customer B spent 74$
+
+
 Customer C spent 36$ at the restaurant
 
