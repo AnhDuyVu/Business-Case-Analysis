@@ -1,8 +1,8 @@
 ## 🗺 **Duy's Portfolio**
 Welcome to my data portfolio! Here, I document a summary of my hand-on projects in the data field
 
-# Project
-These self-pace practice projects are great for me to practice.
+##📚 **Table of Contents**
+
 <p align="center"> 
 <img src="https://www.clicdata.com/wp-content/uploads/2021/06/transfrom-data-actionable-insights.jpg"
 </p>
