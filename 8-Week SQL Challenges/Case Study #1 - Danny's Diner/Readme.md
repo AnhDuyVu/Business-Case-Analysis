@@ -30,7 +30,7 @@ Danny has provided us with a sample of his overall customer data due to privacy 
 ````sql
 
 Select sales.customer_id,
-sum(price) as total_spent
+       sum(price) as total_spent
 from dannys_diner.sales as sales
 join dannys_diner.menu as menu on sales.product_id = menu.product_id
 group by sales.customer_id
