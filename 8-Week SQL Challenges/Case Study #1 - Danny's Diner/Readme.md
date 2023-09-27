@@ -107,7 +107,9 @@ where order_date_rank = 1;
 
 ````
 ## Steps:
+
 1. Create a Common Table Expression (CTE) with name 'order_date_rank', create new column order_date_rank using dense_rank() to rank by the order_date ascending from the merge table between sales and menu.
+   
 2. From 'order_date_rank' CTE table, select distinct customer_id with filter order_date_rank = 1 to find the first item from the menu purchased by each customer.
 
 ## Results:
@@ -124,6 +126,53 @@ Customer A placed an order for both curry and sushi simultaneously, making them 
 Customer B's first order is curry.
 
 Customer C's first order is ramen.
+
+**4. What is the most purchased item on the menu and how many times was it purchased by all customers?**
+
+````sql
+
+Select menu.product_name,
+       sales.product_id,
+       count(sales.product_id) as most_purchased_product
+from dannys_diner.sales as sales
+inner join dannys_diner.menu as menu on sales.product_id = menu.product_id
+group by menu.product_name,sales.product_id
+order by most_purchased_product desc limit 1;
+Select menu.product_name,
+       count(product_name) as total_time_purchased
+from dannys_diner.sales as sales
+inner join dannys_diner.menu as menu on sales.product_id = menu.product_id
+group by menu.product_name
+order by menu.product_name asc;
+
+````
+## Steps:
+
+1. Write inner join dannys_diner.menu with dannys_diner.sales on product_id to get the product_name on menu table.
+   
+2. Group by menu.product_name, sales.product_id to calculate count product_id, finding the most purchased item on the menu by all customers.
+ 
+3. group by menu.product_name to calculate count product_name, finding how many times the products were purchased by all customer.
+
+## Results:
+
+| product_name | product_id | most_purchased_product |
+| ------------ | ---------- | ---------------------- |
+| ramen        | 3	    | 8                      |
+
+| product_name | total_time_purchased |
+| ------------ | -------------------- |
+| curry	       | 4                    |
+| ramen	       | 8                    |
+| sushi	       | 3                    |
+
+ Most purchased item on the menu is ramen which is 8 times
+
+ Total purchased for curry is 4 times
+
+ Total purchased for ramen is 8 times
+
+ Total purchased for sushi is 8 times
 
 
 
