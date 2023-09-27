@@ -26,6 +26,14 @@ Danny has provided us with a sample of his overall customer data due to privacy 
 # Questions and my solution
 - [1. What is the total amount each customer spent at the restaurant?](#1-what-is-the-total-amount-each-customer-spent-at-the-restaurant)
 - [2. How many days has each customer visited the restaurant?](#2-how-many-days-has-each-customer-visited-the-restaurant)
+- [3. What was the first item from the menu purchased by each customer?](#3-what-was-the-first-item-from-the-menu-purchased-by-each-customer)
+- [4. What is the most purchased item on the menu and how many times was it purchased by all customers?](#4-what-is-the-most-purchased-item-on-the-menu-and-how-many-times-was-it-purchased-by-all-customers)
+- [5. Which item was the most popular for each customer?](#5-which-item-was-the-most-popular-for-each-customer)
+- [6. Which item was purchased first by the customer after they became a member?](#6-which-item-was-purchased-first-by-the-customer-after-they-became-a-member)
+- [7. Which item was purchased just before the customer became a member?](#7-which-item-was-purchased-just-before-the-customer-became-a-member)
+- [8. What is the total items and amount spent for each member before they became a member?](#8-what-is-the-total-items-and-amount-spent-for-each-member-before-they-became-a-member)
+- [9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?](#9-if-each-$1-spent-equates-to-10-points-and-sushi-has-a-2x-points-multiplier-how-many-points-would-each-customer-have)
+- [10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?](#10-in-the-first-week-after-a-customer-joins-the-program-(including-their-join-date)-they-earn-2x-points-on-all-items,-not-just-sushi-how-many-points-do-customer-A-and-B-have-at-the-end-of-january)
 
 # **1. What is the total amount each customer spent at the restaurant?**
 
@@ -90,7 +98,7 @@ Customer B has visỉted the restaurant 6 days
 
 Customer C has visỉted the restaurant 2 days
 
-**3. What was the first item from the menu purchased by each customer?**
+# **3. What was the first item from the menu purchased by each customer?**
 
 ````sql
 
@@ -129,7 +137,7 @@ Customer B's first order is curry.
 
 Customer C's first order is ramen.
 
-**4. What is the most purchased item on the menu and how many times was it purchased by all customers?**
+# **4. What is the most purchased item on the menu and how many times was it purchased by all customers?**
 
 ````sql
 
@@ -176,7 +184,7 @@ order by menu.product_name asc;
 
  Total purchased for sushi is 8 times
 
- **5. Which item was the most popular for each customer?**
+ # **5. Which item was the most popular for each customer?**
  
  ````sql
 with rank_item_purchased as (
@@ -217,7 +225,7 @@ Customer C's favourite item is ramen.
 
 Customer B's favourite are all items in the menu.
 
-**6. Which item was purchased first by the customer after they became a member?**
+# **6. Which item was purchased first by the customer after they became a member?**
 
  ````sql
 
@@ -259,7 +267,7 @@ The first item bought by customer A after they became a member is curry
 The first item bought by customer B after they became a member is sushi
 The customer C is not a member of the restaurant so he/she does not have data of first buy.
 
-**7. Which item was purchased just before the customer became a member?**
+# **7. Which item was purchased just before the customer became a member?**
 
  ````sql
 with total_day_before_become_member as (
