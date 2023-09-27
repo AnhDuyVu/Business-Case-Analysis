@@ -2,7 +2,7 @@
 Welcome to my data portfolio! Here, I document a summary of my hand-on projects in the data field
 
 ## 📚 **Table of Contents**
-- SQL[SQL](#SQL) 
+- [SQL](#SQL) 
 <p align="center"> 
 <img src="https://www.clicdata.com/wp-content/uploads/2021/06/transfrom-data-actionable-insights.jpg"
 </p>
