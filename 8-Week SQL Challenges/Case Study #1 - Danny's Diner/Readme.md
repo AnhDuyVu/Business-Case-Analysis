@@ -339,6 +339,47 @@ Customer A bought 2 products and spent 25$ at the restaurant.
 
 Customer B bought 3 products and spent 40$ at the restaurant.
 
+# **9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?**
+
+````sql
+
+with purchase_point as (
+      Select *,
+             case 
+             when product_name = 'sushi' then price *10 *2
+             else price*10
+             end as purchase_point
+      from dannys_diner.sales as sales
+      inner join dannys_diner.menu as menu on sales.product_id = menu.product_id)
+Select distinct customer_id,
+       sum(purchase_point) over(partition by customer_id) as total_purchase_point
+from purchase_point
+order by customer_id asc;
+
+````
+## Steps:
+
+1. Merge table between sales, menu on product_id to get the data of price, product_name
+2. Use case when for sushi product to calculate purchase_point for each product
+3. Create a CTE name 'purchase_point' to add purchase_point to merge table.
+4. From 'purchase_point' table, select distinct customer_id, use window function calculate total_purchase_ point for each customer.
+
+## Results:
+
+| customer_id | total_purchase_point |
+| ----------- | -------------------- |
+| A           |	860                  |
+| B           |	940                  |
+| C           |	360                  |
+
+Customer A had  860 purchase point.
+
+Customer B had  940 purchase point.
+
+Customer C had  360 purchase point.
+
+
+
 
 
 
