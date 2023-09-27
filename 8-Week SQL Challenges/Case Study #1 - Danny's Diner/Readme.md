@@ -174,6 +174,44 @@ order by menu.product_name asc;
 
  Total purchased for sushi is 8 times
 
+ **5. Which item was the most popular for each customer?**
+ 
+ ````sql
+with rank_item_purchased as (
+       Select sales.customer_id,
+       menu.product_name,
+       dense_rank() over(partition by sales.customer_id order by count(product_name) asc) as rank_item_purchased
+       from dannys_diner.sales as sales
+       inner join dannys_diner.menu as menu on sales.product_id = menu.product_id
+       group by sales.customer_id, menu.product_name
+       order by customer_id asc, product_name asc)
+Select customer_id,
+	   product_name,
+       rank_item_purchased
+from rank_item_purchased
+where rank_item_purchased = 1
+order by customer_id asc, product_name asc;
+
+ ````
+## Steps:
+1. Create a Common Table Expression (CTE) named `rank_item_purchased` to rank item_ purchased by each customer from merge table between sales and menu table on product_id.
+2. From 'rank_item_purchased' table select customer_id and product_name with filter rank_item_purchased = 1 to filter the first rank in the product each customer bought.
+3. Order by customer_id and product_name in ascending orders.
+
+## Results:
+
+
+| customer_id | product_name | rank_item_purchased |
+| ----------- | ------------ | ------------------- |
+| A           |	sushi        |	1                  |
+| B           |	curry        | 	1                  |
+| B           |	ramen        |	1                  |
+| B           |	sushi        |	1                  |
+| C           |	ramen        |	1                  |
+
+
+
+
 
 
 
