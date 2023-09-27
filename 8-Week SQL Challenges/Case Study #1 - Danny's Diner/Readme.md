@@ -209,6 +209,13 @@ order by customer_id asc, product_name asc;
 | B           |	sushi        |	1                  |
 | C           |	ramen        |	1                  |
 
+Customer A's favourite item is sushi.
+
+Customer C's favourite item is ramen.
+
+Customer C's favourite are all items in the menu.
+
+
 
 
 
