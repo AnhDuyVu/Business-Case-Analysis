@@ -21,3 +21,5 @@ Danny wants to use the data to answer a few simple questions about his customers
 Danny has provided us with a sample of his overall customer data due to privacy issues - but he hopes that these examples are enough for us to write fully functioning SQL queries to help him answer his questions.
 
 # Entity Relationship Diagram  
+![image](https://github.com/AnhDuyVu/Data-Analysis-Projects/assets/119872105/b542d482-5671-4c6d-97c7-117eb769bd9d)
+
