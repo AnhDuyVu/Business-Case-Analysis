@@ -378,6 +378,49 @@ Customer B had  940 purchase point.
 
 Customer C had  360 purchase point.
 
+# **10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?**
+
+````sql
+
+with purchase_point as (
+      Select sales.customer_id,
+             join_date,
+             order_date,
+             case
+             when (members.join_date - sales.order_date) between 0 and 7 then price *10*2
+             else price *10
+             end as purchase_point
+             from dannys_diner.sales as sales
+             inner join dannys_diner.menu as menu on sales.product_id = menu.product_id
+             inner join dannys_diner.members as members on sales.customer_id = members.customer_id
+             where order_date between '2021-01-01' and '2021-01-31')
+Select distinct customer_id,
+       sum(purchase_point) over(partition by customer_id) as total_purchase_point
+from purchase_point
+order by customer_id asc;
+
+````
+## Steps:
+
+1. Merge table between sales, menu, members on product_id, customer_id to get the data of price, product_name, join_date
+2. Filter the data of customer after a customer join the program at the end of January
+3. Use case when to calculate purchase_point for each customer
+4. Create a CTE name 'purchase_point' to add column purchase_point into merge table.
+5. From 'purchase_point' table, select distinct customer_id.
+6. Use window funcction to extract total_purchase_point for each customer.
+
+## Results:
+
+| customer_id | total_purchase_point |
+| ----------- | -------------------- |
+| A           |	1160                 |
+| B	      | 870                  |
+
+Customer A has total 1160 points at the end of January.
+
+Customer B has total 870 points at the end of January.
+
+
 
 
 
