@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Problem Statement](#Problem-Statement)
 - [Entity Relationship Diagram](#Entity-Relationship-Diagram)
-- [Questions and my solutions](#Question-and-my-solution)
+- [Questions and my solutions](#question-and-my-solution)
 
 All source data is in link: [here](https://8weeksqlchallenge.com/case-study-1/). 
 
