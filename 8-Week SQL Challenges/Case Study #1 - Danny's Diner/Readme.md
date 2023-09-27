@@ -25,6 +25,7 @@ Danny has provided us with a sample of his overall customer data due to privacy 
 
 # Questions and my solution
 - [1. What is the total amount each customer spent at the restaurant?](#1-what-is-the-total-amount-each-customer-spent-at-the-restaurant)
+- [2. How many days has each customer visited the restaurant?](#2-how-many-days-has-each-customer-visited-the-restaurant)
 
 # **1. What is the total amount each customer spent at the restaurant?**
 
@@ -59,7 +60,7 @@ Customer B spent 74$ at the restaurant
 
 Customer C spent 36$ at the restaurant
 
-**2. How many days has each customer visited the restaurant?**
+# **2. How many days has each customer visited the restaurant?**
 
 ````sql
 
