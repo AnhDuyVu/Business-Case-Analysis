@@ -213,7 +213,7 @@ Customer A's favourite item is sushi.
 
 Customer C's favourite item is ramen.
 
-Customer C's favourite are all items in the menu.
+Customer B's favourite are all items in the menu.
 
 
 
