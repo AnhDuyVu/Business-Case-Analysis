@@ -102,7 +102,7 @@ Other tables I keep the same schema.
 
 - [9. What was the total volume of pizzas ordered for each hour of the day?](#9-what-was-the-total-volume-of-pizzas-ordered-for-each-hour-of-the-day)
 
-- [10. What was the volume of orders for each day of the week?]
+- [10. What was the volume of orders for each day of the week?](#10-what-was-the-volume-of-orders-for-each-day-of-the-week)
 
 ### 1. How many pizzas were ordered?
 
@@ -325,6 +325,7 @@ Select TO_CHAR(order_time_timestamp + INTERVAL '2 days', 'Day') AS day_of_week,
 FROM order_time_timestamp
 GROUP BY TO_CHAR(order_time_timestamp + INTERVAL '2 days', 'Day')
 order by total_pizza_ordered desc;
+````
 
 #### Steps:
 1. Change format type of order_time from varchar to timestamp with cast() function.
