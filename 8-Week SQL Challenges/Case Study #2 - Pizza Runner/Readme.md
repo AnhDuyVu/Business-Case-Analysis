@@ -106,6 +106,24 @@ Other tables I keep the same schema.
 
 ### 1. How many pizzas were ordered?
 
+````sql
+Select count(pizza_id) as number_pizzas_ordered
+from customer_orders_temp;
+````
+#### Steps:
+1. From table customer_orders_temp select count number of pizza_id to answer how many pizzas were ordered.
+
+#### Results:
+
+| number_pizzas_ordered |
+| --------------------- |
+| 14                    |
+
+There are 14 pizzas were ordered.
+
+
+
+
 
 
 
