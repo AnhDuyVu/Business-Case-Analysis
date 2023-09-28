@@ -29,7 +29,7 @@ Because the data has Null and uncorect format type so I need to do data cleaning
 
 I create temp table name 'customer_orders_temp' to replace null value with blank value
 
-''''sql
+````sql
 
 CREATE TEMP TABLE customer_orders_temp AS
 SELECT 
@@ -47,7 +47,7 @@ SELECT
 	order_time
 FROM pizza_runner.customer_orders;
 
-''''
+````
 
 
 
