@@ -23,10 +23,31 @@ He has prepared for us an entity relationship diagram of his database design but
 
 # Data Cleaning and Transformation
 
-Because the data has Null and uncorect format type so we need to do data cleaning and transformation before using SQL to extract data to answer questions.
+Because the data has Null and uncorect format type so I need to do data cleaning and transformation before using SQL to extract data to answer questions.
 
 ## Table: Customer Order
 
+I create temp table name 'customer_orders_temp' to replace null value with blank value
+
+''''sql
+
+CREATE TEMP TABLE customer_orders_temp AS
+SELECT 
+  order_id, 
+  customer_id, 
+  pizza_id, 
+  CASE
+	  WHEN exclusions IS null OR exclusions LIKE 'null' THEN ''
+	  ELSE exclusions
+	  END AS exclusions,
+  CASE
+	  WHEN extras IS NULL or extras LIKE 'null' THEN ''
+	  ELSE extras
+	  END AS extras,
+	order_time
+FROM pizza_runner.customer_orders;
+
+''''
 
 
 
