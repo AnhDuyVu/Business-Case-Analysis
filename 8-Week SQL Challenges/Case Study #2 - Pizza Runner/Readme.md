@@ -90,7 +90,7 @@ Other tables I keep the same schema.
 
 - [3. How many successful orders were delivered by each runner?](#3-how-many-successful-orders-were-delivered-by-each-runner)
 
-- [4. How many of each type of pizza was delivered?]
+- [4. How many of each type of pizza was delivered?](#4-how-many-of-each-type-of-pizza-was-delivered)
 
 - [5. How many Vegetarian and Meatlovers were ordered by each customer?]
 
