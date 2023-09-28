@@ -25,4 +25,4 @@ Dataset | Links of Dataset | Project Details
 # Python
 Dataset | Project Links | Project Description | Libraries
 ------- | ------------- | ------------------- | --------- |
-Global Superstore | RFM Analysis | Data Wrangling and RFM analysis to analyse customer behaviour get customer behavior insight for sale campaigns | pandas, numpy, matplotlib, seaborn
+Global Superstore | [RFM Analysis](https://github.com/AnhDuyVu/Data-Analysis-Projects/tree/63d1dab31a65b1f376c1e4d9b8ebaef2d3152d9e/RFM%20Analysis%20in%20Python)| Data Wrangling and RFM analysis to analyse customer behaviour get customer behavior insight for sale campaigns | pandas, numpy, matplotlib, seaborn
