@@ -216,6 +216,32 @@ order by orders.customer_id asc;
 | 104         | Meatlovers | 3            |
 | 105	      | Vegetarian | 1            |
 
+### 6. What was the maximum number of pizzas delivered in a single order?
+````sql
+with count_pizza_delivered as (
+       Select orders.order_id,
+       count(pizza_id) as count_pizza_delivered
+       from customer_orders_temp as orders
+       inner join runner_orders_temp as runner on orders.order_id = runner.order_id
+       where runner.cancellation not like '%Cancellation'
+       group by orders.order_id)
+Select max(count_pizza_delivered) as max_pizza_delivered_single_order  
+from count_pizza_delivered;
+```
+#### Steps:
+1. Merge table customer_orders_temp with runner_orders_temp on order_id to get the data of cancellation
+2. Filter the orders not have cancellation in delivery.
+3. Group by order_id to count pizza_id to get how many pizza delivered for each order
+4. Create a CTE table name 'count_pizza_delivered'
+5. From count_pizza_delivered filter maximum value of count_pizza_delivered column to answer what was the maximum number of pizzas delivered in a single order.
+
+#### Results:
+| max_pizza_delivered_single_order |
+| 3                                |
+
+the maximum number of pizzas delivered in a single order was 3 pizzas.
+
+
 
 
 
