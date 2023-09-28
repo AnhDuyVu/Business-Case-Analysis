@@ -84,7 +84,7 @@ Other tables I keep the same schema.
 
 # Questions and my solutions
 ## A. Pizza Metrics
-- [1. How many pizzas were ordered?]
+- [1. How many pizzas were ordered?](#1-how-many-pizzas-were-ordered)
 
 - [2. How many unique customer orders were made?]
 
