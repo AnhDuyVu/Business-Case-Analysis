@@ -137,6 +137,31 @@ from customer_orders_temp;
 
 There are 10 unique customer orders were made.
 
+### 3. How many successful orders were delivered by each runner?
+````sql
+Select runner.runner_id,
+       count(distinct orders.order_id) as successful_orders
+from customer_orders_temp as orders
+inner join runner_orders_temp as runner on orders.order_id = runner.order_id
+where runner.cancellation not like '%Cancellation'
+group by runner.runner_id;
+````
+#### Steps:
+1. Merge table customer_orders_temp with runner_orders_temp on order_id to get the data of runner_id and cancellation
+2. Filter the orders not have cancellation in delivery.
+3. Group by runner_id to count distinct order_id to answer how many successful orders were delivered by each runner.
+
+#### Results: 
+| runner_id | successful_orders |
+| --------- | ----------------- |
+| 1         | 4                 |
+| 2         | 3                 |
+| 3         | 1                 |
+
+Runner_id 1 has delivered successfull 4 orders.
+Runner_id 2 has delivered successfull 3 orders.
+Runner_id 3 has delivered successfull 1 orders.
+
 
 
 
