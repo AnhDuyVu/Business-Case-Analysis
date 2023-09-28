@@ -254,7 +254,7 @@ order by orders.customer_id asc;
 ````
 #### Steps:
 1. Group by custoner_id to calculate sum to sum all pizza have exclusions or extras by each customer to get at least 1 change in pizza topping
-2. Group by custoner_id to calculate sum to sum all pizza no have exclusions and extras by each custome to get no change in pizza topping
+2. Group by custoner_id to calculate sum to sum all pizza no have exclusions and extras by each customer to get no change in pizza topping
 3. Order by customer_id to answer for each customer, how many delivered pizzas had at least 1 change and how many had no changes.
 
 #### Results:
@@ -265,6 +265,26 @@ order by orders.customer_id asc;
 | 103         | 4	          | 0         |
 | 104	      | 2	          | 1         |
 | 105	      | 1	          | 0         |
+
+### 8. How many pizzas were delivered that had both exclusions and extras?
+````sql
+Select sum(case when exclusions <>'' and extras <> '' then 1
+         else 0 end) as pizza_deivered_both_exclusion_and_extras_count
+from customer_orders_temp as orders
+inner join runner_orders_temp as runner on orders.order_id = runner.order_id
+where runner.cancellation not like '%Cancellation';
+````
+#### Steps:
+1. Merge table customer_orders_temp with runner_orders_temp to get the data of cancellation
+2. Filter the orders not have cancellation in delivery.
+3. Calculate sum to sum all pizza have both exclusions and extras by each customer to answer how many pizzas were delivered that had both exclusions and extras.
+
+#### Results:
+| pizza_deivered_both_exclusion_and_extras_count |
+| ---------------------------------------------- |
+| 1                                              |
+Just 1 pizza was delivered that had both exclusions and extras.
+ 
 
 
 
