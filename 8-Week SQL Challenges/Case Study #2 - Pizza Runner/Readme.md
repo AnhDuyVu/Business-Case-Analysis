@@ -17,7 +17,8 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 He has prepared for us an entity relationship diagram of his database design but requires further assistance to clean his data and apply some basic calculations so he can better direct his runners and optimise Pizza Runner’s operations.
 
 # Entity Relationship Diagram
+![image](https://github.com/AnhDuyVu/Data-Analysis-Projects/assets/119872105/7fb38ec2-3b68-4932-802d-99d8ead9b832)
 
-![image](https://github.com/AnhDuyVu/Data-Analysis-Projects/assets/119872105/ce45c1e7-d4f2-4ba7-aad8-8714a5f7e41e) 
+
 
 
