@@ -241,6 +241,34 @@ from count_pizza_delivered;
 
 the maximum number of pizzas delivered in a single order was 3 pizzas.
 
+### 7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?
+````sql
+Select orders.customer_id,
+     sum(case when exclusions <>'' or extras <> '' then 1
+         else 0 end) as at_least_1_change,
+     sum(case when exclusions ='' and extras = '' then 1
+         else 0 end) as no_change
+from customer_orders_temp as orders
+group by orders.customer_id
+order by orders.customer_id asc;
+````
+#### Steps:
+1. Group by custoner_id to calculate sum to sum all pizza have exclusions or extras by each customer to get at least 1 change in pizza topping
+2. Group by custoner_id to calculate sum to sum all pizza no have exclusions and extras by each custome to get no change in pizza topping
+3. Order by customer_id to answer for each customer, how many delivered pizzas had at least 1 change and how many had no changes.
+
+#### Results:
+| customer_id | at_least_1_change | no_change |
+| ----------- | ----------------- | --------- |
+| 101         |	0  	          | 3         |
+| 102	      | 0	          | 3         |
+| 103         | 4	          | 0         |
+| 104	      | 2	          | 1         |
+| 105	      | 1	          | 0         |
+
+
+
+
 
 
 
