@@ -284,6 +284,37 @@ where runner.cancellation not like '%Cancellation';
 | ---------------------------------------------- |
 | 1                                              |
 Just 1 pizza was delivered that had both exclusions and extras.
+
+### 9. What was the total volume of pizzas ordered for each hour of the day?
+````sql
+with hour_of_day_ordered as (
+     Select *,
+     extract(hour from order_time) as hour_of_day
+     from customer_orders_temp)
+Select hour_of_day,
+       count(order_id) as total_volume_pizza_ordered_each_hour
+from hour_of_day_ordered
+group by hour_of_day
+order by hour_of_day asc;
+````
+#### Steps:
+1. Extract hour from order_time of customer_orders_temp to get hour information.
+2. Create a CTE name 'hour_of_day_ordered'
+3. From 'hour_of_day_ordered' table, group by hour_of_day to count the number of order each hour of day to answer what was the total volume of pizzas ordered for each hour of the day
+4. Order by hour_of_day ascending order.
+
+#### Results:
+| hour_of_day | total_volume_pizza_ordered_each_hour |
+| ----------- | ------------------------------------ |
+| 11          |	1                                    |
+| 13          | 3                                    |
+| 18  	      | 3                                    |
+| 19	      | 1                                    |
+| 21	      | 3                                    |
+| 23	      | 3                                    |
+
+Busy hour with highest pizzas ordered was 13:00, 18:00, 21:00, and 23:00 with 3 pizzas ordered at those time.
+
  
 
 
