@@ -227,7 +227,7 @@ with count_pizza_delivered as (
        group by orders.order_id)
 Select max(count_pizza_delivered) as max_pizza_delivered_single_order  
 from count_pizza_delivered;
-```
+````
 #### Steps:
 1. Merge table customer_orders_temp with runner_orders_temp on order_id to get the data of cancellation
 2. Filter the orders not have cancellation in delivery.
