@@ -18,7 +18,8 @@ He has prepared for us an entity relationship diagram of his database design but
 
 # Entity Relationship Diagram
 
-![Pizza Runner](https://github.com/AnhDuyVu/Data-Analysis-Projects/assets/81607668/78099a4e-4d0e-421f-a560-b72e4321f530)
+![image](https://github.com/AnhDuyVu/Data-Analysis-Projects/assets/119872105/dae30cd3-c4f5-4c28-afce-b3f9588162bc)
+
 
 # Data Cleaning and Transformation
 
