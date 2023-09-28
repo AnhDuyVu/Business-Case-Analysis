@@ -92,7 +92,7 @@ Other tables I keep the same schema.
 
 - [4. How many of each type of pizza was delivered?](#4-how-many-of-each-type-of-pizza-was-delivered)
 
-- [5. How many Vegetarian and Meatlovers were ordered by each customer?]
+- [5. How many Vegetarian and Meatlovers were ordered by each customer?](#5-how-many-vegetarian-and-meatlovers-were-ordered-by-each-customer)
 
 - [6. What was the maximum number of pizzas delivered in a single order?]
 
