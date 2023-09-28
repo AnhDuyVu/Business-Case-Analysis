@@ -121,6 +121,24 @@ from customer_orders_temp;
 
 There are 14 pizzas were ordered.
 
+### 2. How many unique customer orders were made?
+
+````sql
+Select count(distinct order_id) as number_unique_customer_orders
+from customer_orders_temp;
+````
+#### Steps:
+1. From table customer_orders_temp count distinct number of order_id to answer how many unique customer orders were made.
+
+#### Results:
+| number_unique_customer_orders |
+| ----------------------------- |
+| 10                            |
+
+There are 10 unique customer orders were made.
+
+
+
 
 
 
