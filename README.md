@@ -21,3 +21,8 @@ Brazillian E-Commerce Public Dataset by Olist | [Cohort Analysis by SQL in Azure
 Dataset | Links of Dataset | Project Details
 ---| ---| ---| 
 1.Global Superstore Dataset | https://goo.by/nDpsn | Sale Analysis Dashboard
+
+# Python
+Dataset | Project Links | Project Description | Libraries
+------- | ------------- | ------------------- | --------- |
+Global Superstore | RFM Analysis | Data Wrangling and RFM analysis to analyse customer behaviour get customer behavior insight for sale campaigns | pandas, numpy, matplotlib, seaborn
