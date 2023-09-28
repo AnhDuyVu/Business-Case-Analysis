@@ -48,7 +48,38 @@ SELECT
 FROM pizza_runner.customer_orders;
 
 ````
+## Table: runner_orders
 
+I create temp table name 'runner_orders_temp' to replace null value with blank value and remove uneccesary charaters from data.
+
+````sql
+CREATE TEMP TABLE runner_orders_temp AS
+SELECT 
+  order_id, 
+  runner_id,  
+  CASE
+	  WHEN pickup_time LIKE 'null' THEN ''
+	  ELSE pickup_time
+	  END AS pickup_time,
+  CASE
+	  WHEN distance LIKE 'null' THEN ''
+	  WHEN distance LIKE '%km' THEN TRIM('km' from distance)
+	  ELSE distance 
+    END AS distance,
+  CASE
+	  WHEN duration LIKE 'null' THEN ''
+	  WHEN duration LIKE '%mins' THEN TRIM('mins' from duration) 
+	  WHEN duration LIKE '%minute' THEN TRIM('minute' from duration) 
+	  WHEN duration LIKE '%minutes' THEN TRIM('minutes' from duration) 
+	  ELSE duration
+	  END AS duration,
+  CASE
+	  WHEN cancellation IS NULL or cancellation LIKE 'null' THEN ''
+	  ELSE cancellation
+	  END AS cancellation
+FROM pizza_runner.runner_orders;
+
+````
 
 
 
