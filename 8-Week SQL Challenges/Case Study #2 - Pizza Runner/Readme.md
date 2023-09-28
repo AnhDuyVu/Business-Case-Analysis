@@ -25,7 +25,7 @@ He has prepared for us an entity relationship diagram of his database design but
 
 Because the data has Null and uncorect format type so I need to do data cleaning and transformation before using SQL to extract data to answer questions.
 
-## Table: Customer Order
+## 1. Table: Customer Order
 
 I create temp table name 'customer_orders_temp' to replace null value with blank value
 
@@ -48,7 +48,7 @@ SELECT
 FROM pizza_runner.customer_orders;
 
 ````
-## Table: runner_orders
+## 2. Table: runner_orders
 
 I create temp table name 'runner_orders_temp' to replace null value with blank value and remove uneccesary charaters from data.
 
@@ -80,6 +80,7 @@ SELECT
 FROM pizza_runner.runner_orders;
 
 ````
+Other tables I keep the same schema.
 
 
 
