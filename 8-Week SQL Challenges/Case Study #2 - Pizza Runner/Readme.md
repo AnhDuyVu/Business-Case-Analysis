@@ -315,6 +315,34 @@ order by hour_of_day asc;
 
 Busy hour with highest pizzas ordered was 13:00, 18:00, 21:00, and 23:00 with 3 pizzas ordered at those time.
 
+### 10. What was the volume of orders for each day of the week?
+````sql
+with order_time_timestamp as (Select *,
+     cast(order_time as timestamp) as order_time_timestamp
+     from customer_orders_temp)
+Select TO_CHAR(order_time_timestamp + INTERVAL '2 days', 'Day') AS day_of_week, 
+       COUNT(order_id) AS total_pizza_ordered
+FROM order_time_timestamp
+GROUP BY TO_CHAR(order_time_timestamp + INTERVAL '2 days', 'Day')
+order by total_pizza_ordered desc;
+
+#### Steps:
+1. Change format type of order_time from varchar to timestamp with cast() function.
+2. Create a CTE name 'order_time_timestamp'
+3. Change display of order_time_timestamp to day of week with to_char() function
+4. group by day of week to count the number of order for each day of the week.
+5 order by total_pizza_ordered descending order.
+
+#### Results:
+| day_of_week | total_pizza_ordered |
+| ----------- | ------------------- |
+| Monday      | 5                   |
+| Friday      | 5                   |
+| Saturday    | 3                   |
+| Sunday      | 1                   |
+
+Monday and Friday are the highest day for orders of the week with 5 orders.
+
  
 
 
