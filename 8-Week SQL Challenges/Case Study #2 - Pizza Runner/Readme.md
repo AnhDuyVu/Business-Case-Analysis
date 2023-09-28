@@ -17,7 +17,16 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 He has prepared for us an entity relationship diagram of his database design but requires further assistance to clean his data and apply some basic calculations so he can better direct his runners and optimise Pizza Runner’s operations.
 
 # Entity Relationship Diagram
+
 ![image](https://github.com/AnhDuyVu/Data-Analysis-Projects/assets/119872105/7fb38ec2-3b68-4932-802d-99d8ead9b832)
+
+# Data Cleaning and Transformation
+
+Because the data has Null and uncorect format type so we need to do data cleaning and transformation before using SQL to extract data to answer questions.
+
+## Table: Customer Order
+
+
 
 
 
