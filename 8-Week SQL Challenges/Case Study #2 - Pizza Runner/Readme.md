@@ -164,6 +164,32 @@ Runner_id 2 has delivered successfull 3 orders.
 
 Runner_id 3 has delivered successfull 1 orders.
 
+### 4. How many of each type of pizza was delivered?
+````sql
+Select pizza_names.pizza_name,
+       count(orders.pizza_id) as successful_orders
+from customer_orders_temp as orders
+inner join runner_orders_temp as runner on orders.order_id = runner.order_id
+inner join pizza_runner.pizza_names as pizza_names on orders.pizza_id = pizza_names.pizza_id
+where runner.cancellation not like '%Cancellation'
+group by pizza_names.pizza_name;
+````
+#### Steps:
+1. Merge table customer_orders_temp with runner_orders_temp on order_id to get the data of cancellation
+2. Merge table customer_orders_temp with pizza_names to get the data of pizza_name
+3. Filter the orders not have cancellation in delivery.
+4. Group by pizza_name to count pizza_id to answer How many of each type of pizza was delivered.
+
+#### Results: 
+| pizza_name | successful_orders |
+| ---------- | ----------------- |
+| Meatlovers | 9                 |
+| Vegetarian | 3                 |
+
+Meatlovers was ordered 9.
+
+Vegetarian was ordered 3.
+
 
 
 
