@@ -98,7 +98,7 @@ Other tables I keep the same schema.
 
 - [7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?](#7-for-each-customer-how-many-delivered-pizzas-had-at-least-1-change-and-how-many-had-no-changes)
 
-- [8. How many pizzas were delivered that had both exclusions and extras?]
+- [8. How many pizzas were delivered that had both exclusions and extras?](#8-how-many-pizzas-were-delivered-that-had-both-exclusions-and-extras)
 
 - [9. What was the total volume of pizzas ordered for each hour of the day?]
 
