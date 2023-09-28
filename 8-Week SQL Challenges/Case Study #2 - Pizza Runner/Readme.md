@@ -18,7 +18,8 @@ He has prepared for us an entity relationship diagram of his database design but
 
 # Entity Relationship Diagram
 
-![image](https://github.com/AnhDuyVu/Data-Analysis-Projects/assets/119872105/dae30cd3-c4f5-4c28-afce-b3f9588162bc)
+![image](https://github.com/AnhDuyVu/Data-Analysis-Projects/assets/119872105/37f6baa9-25bc-474d-87fc-4b87bc8e56bf)
+
 
 
 # Data Cleaning and Transformation
