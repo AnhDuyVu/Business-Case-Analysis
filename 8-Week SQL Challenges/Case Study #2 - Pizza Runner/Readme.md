@@ -190,6 +190,34 @@ Meatlovers was ordered 9.
 
 Vegetarian was ordered 3.
 
+### 5. How many Vegetarian and Meatlovers were ordered by each customer?
+````sql
+Select orders.customer_id,
+       pizza_name,
+       count(pizza_name)  as orders_count
+from customer_orders_temp as orders
+inner join pizza_runner.pizza_names using(pizza_id)
+group by orders.customer_id,pizza_name
+order by orders.customer_id asc;
+````
+#### Steps:
+1. Merge table customer_orders_temp with pizza_names on pizza_id to get the data of pizza_name
+2. Group by orders.customer_id,pizza_name to count pizza_name to get answer how many Vegetarian and Meatlovers were ordered by each customer.
+
+#### Results: 
+| customer_id | pizza_name | orders_count |
+| ----------- | ---------- | ------------ |
+| 101	      | Meatlovers | 2            |
+| 101 	      | Vegetarian | 1            |
+| 102         |	Meatlovers | 2            |
+| 102         |	Vegetarian | 1            |
+| 103 	      | Meatlovers | 3            |
+| 103 	      | Vegetarian | 1            |
+| 104         | Meatlovers | 3            |
+| 105	      | Vegetarian | 1            |
+
+
+
 
 
 
