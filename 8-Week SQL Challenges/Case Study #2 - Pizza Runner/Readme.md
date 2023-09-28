@@ -96,7 +96,7 @@ Other tables I keep the same schema.
 
 - [6. What was the maximum number of pizzas delivered in a single order?](#6-what-was-the-maximum-number-of-pizzas-delivered-in-a-single-order)
 
-- [7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?]
+- [7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?](#7-for-each-customer-how-many-delivered-pizzas-had-at-least-1-change-and-how-many-had-no-changes)
 
 - [8. How many pizzas were delivered that had both exclusions and extras?]
 
