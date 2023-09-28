@@ -88,7 +88,7 @@ Other tables I keep the same schema.
 
 - [2. How many unique customer orders were made?](#2-how-many-unique-customer-orders-were-made)
 
-- [3. How many successful orders were delivered by each runner?]
+- [3. How many successful orders were delivered by each runner?](#3-how-many-successful-orders-were-delivered-by-each-runner)
 
 - [4. How many of each type of pizza was delivered?]
 
@@ -159,7 +159,9 @@ group by runner.runner_id;
 | 3         | 1                 |
 
 Runner_id 1 has delivered successfull 4 orders.
+
 Runner_id 2 has delivered successfull 3 orders.
+
 Runner_id 3 has delivered successfull 1 orders.
 
 
