@@ -18,6 +18,6 @@ He has prepared for us an entity relationship diagram of his database design but
 
 # Entity Relationship Diagram
 
-![image](https://github.com/AnhDuyVu/Data-Analysis-Projects/assets/119872105/ce45c1e7-d4f2-4ba7-aad8-8714a5f7e41e)
+![image](https://github.com/AnhDuyVu/Data-Analysis-Projects/assets/119872105/ce45c1e7-d4f2-4ba7-aad8-8714a5f7e41e) 
 
 
