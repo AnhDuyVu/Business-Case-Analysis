@@ -94,7 +94,7 @@ Other tables I keep the same schema.
 
 - [5. How many Vegetarian and Meatlovers were ordered by each customer?](#5-how-many-vegetarian-and-meatlovers-were-ordered-by-each-customer)
 
-- [6. What was the maximum number of pizzas delivered in a single order?]
+- [6. What was the maximum number of pizzas delivered in a single order?](#6-what-was-the-maximum-number-of-pizzas-delivered-in-a-single-order)
 
 - [7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?]
 
