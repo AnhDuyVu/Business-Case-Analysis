@@ -104,6 +104,9 @@ Other tables I keep the same schema.
 
 - [10. What was the volume of orders for each day of the week?]
 
+### 1. How many pizzas were ordered?
+
+
 
 
 
