@@ -474,6 +474,27 @@ order by customer_id asc;
 | 104	      | 10.00               |
 | 105	      | 25.00               |
 
+### 5. What was the difference between the longest and shortest delivery times for all orders?
+````sql
+Select (max(cast(duration as decimal))-min(cast(duration as decimal))) as  
+        difference_delivery_times_in_minute_all_order
+from customer_orders_temp as orders
+join runner_orders_temp as runner on orders.order_id = runner.order_id
+where distance!='';
+````
+#### Steps:
+1. Merge table customer_orders_temp with runner_orders_temp on order_id to get information of duration
+2. Filter the orders with distance is not null
+3. Extract duration between the longest and shortest delivery times of all orders.
+
+#### Results:
+
+| difference_delivery_times_in_minute_all_order |
+| --------------------------------------------- |
+| 30                                            |
+
+The difference between the longest and shortest delivery times for all orders is 30 minutes
+
 
 
 
