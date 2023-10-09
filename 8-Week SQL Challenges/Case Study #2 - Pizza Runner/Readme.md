@@ -377,6 +377,7 @@ order by registration_week asc;
 | 3                 | 1             |
 
 On week 1 of Jan 2021, 2 runners has signed up
+
 On week 2 and 3 of Jan 2021, 1 runners has signed up
 
 ### 2. What was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order?
@@ -525,6 +526,34 @@ order by orders.order_id asc, runner_id asc;
 | 8	   | 2	       | 93.60                  |
 | 10	   | 1	       | 60.00                  |
 
+### 7.  What is the successful delivery percentage for each runner?
+````sql
+Select runner_id, 
+  ROUND(100 * SUM(
+    CASE WHEN distance = '' THEN 0
+    ELSE 1 END) / COUNT(*), 0) AS successful_delivery_percentage
+FROM runner_orders_temp
+GROUP BY runner_id
+order by runner_id asc;
+````
+#### Steps:
+1. From runner_orders_temp group by runner_id
+2. Extract runner_id, sum distance in each runner_id with have no distance and existed distance
+3. Divide it to all the orders to answer What is the successful delivery percentage for each runner
+4. Order by runner_id ascending
+
+#### Results:
+| runner_id | successful_delivery_percentage |
+| --------- | ------------------------------ |
+| 1	    | 100                            |
+| 2	    | 75                             |
+| 3	    | 50                             |
+
+Runner_id 01 has delivered 100% orders
+
+Runner_id 02 has delivered 75% orders
+
+Runner_id 03 has delivered 50% orders
 
 
 
