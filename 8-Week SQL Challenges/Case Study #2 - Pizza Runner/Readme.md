@@ -495,6 +495,38 @@ where distance!='';
 
 The difference between the longest and shortest delivery times for all orders is 30 minutes
 
+### 6. What was the average speed for each runner for each delivery and do you notice any trend for these values?
+````sql
+Select orders.order_id,
+       runner_id,
+       round(avg(cast(distance as decimal)/(cast(duration as decimal)/60)),2) as average_speed_delivery
+from customer_orders_temp as orders
+join runner_orders_temp as runner on orders.order_id = runner.order_id
+where distance!=''
+group by orders.order_id, runner_id
+order by orders.order_id asc, runner_id asc;
+````
+#### Steps:
+1. Merge customer_orders_temp with runner_orders_temp on order_id
+2. Filter the orders with distance is not null
+3. Group by order_id and runner_id
+4. Extract order_id, runner_id, average speed in each order and each runner to answer the average speed for each runner for each delivery and do you notice any trend for these values
+5. Order by order_id and runner_id ascending
+
+#### Results:
+| order_id | runner_id | average_speed_delivery |
+| -------- | --------- | ---------------------- |
+| 1	   | 1	       | 37.50                  |
+| 2	   | 1	       | 44.44                  |
+| 3	   | 1	       | 40.20                  |
+| 4	   | 2	       | 35.10                  |
+| 5	   | 3	       | 40.00                  |
+| 7	   | 2	       | 60.00                  |
+| 8	   | 2	       | 93.60                  |
+| 10	   | 1	       | 60.00                  |
+
+
+
 
 
 
