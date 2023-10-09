@@ -449,6 +449,34 @@ order by pizza_order asc;
 
 As result, there is a correlation between the number of pizza orders with the prepare time of orders. We can see as pizza order increase, the average_rder_prepare increase.
 
+### 4. What was the average distance travelled for each customer?
+````sql
+Select customer_id,
+       round(avg(cast(distance as numeric)),2) as avg_distance_travel
+from customer_orders_temp as orders
+join runner_orders_temp as runner on orders.order_id = runner.order_id
+where distance!=''
+group by customer_id
+order by customer_id asc;
+````
+#### Steps:
+1. Merge talbe customer_orders_temp with runner_orders_temp on order_id
+2. Filter order within distance is not null
+3. Group by customer_id
+4. Extract customer_id, calculate average distance travel by each customer
+
+#### Results:
+| customer_id | avg_distance_travel |
+| ----------- | ------------------- |
+| 101	      | 20.00               |
+| 102	      | 16.73               |
+| 103	      | 23.40               |
+| 104	      | 10.00               |
+| 105	      | 25.00               |
+
+
+
+
 
 
 
