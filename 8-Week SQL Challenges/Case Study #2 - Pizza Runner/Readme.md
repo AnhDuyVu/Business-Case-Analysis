@@ -112,7 +112,7 @@ Other tables I keep the same schema.
 - [4. What was the average distance travelled for each customer?](#4-what-was-the-average-distance-travelled-for-each-customer)
 - [5. What was the difference between the longest and shortest delivery times for all orders?](#5-what-was-the-difference-between-the-longest-and-shortest-delivery-times-for-all-orders)
 - [6. What was the average speed for each runner for each delivery and do you notice any trend for these values?](#6-what-was-the-average-speed-for-each-runner-for-each-delivery-and-do-you-notice-any-trend-for-these-values)
-- 7. What is the successful delivery percentage for each runner?
+- [7. What is the successful delivery percentage for each runner?](#7--what-is-the-successful-delivery-percentage-for-each-runner)
 
 ## A. Pizza Metrics
 ### 1. How many pizzas were ordered?
