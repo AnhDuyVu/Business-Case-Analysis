@@ -111,7 +111,7 @@ Other tables I keep the same schema.
 - [3. Is there any relationship between the number of pizzas and how long the order takes to prepare?](#3-is-there-any-relationship-between-the-number-of-pizzas-and-how-long-the-order-takes-to-prepare)
 - [4. What was the average distance travelled for each customer?](#4-what-was-the-average-distance-travelled-for-each-customer)
 - [5. What was the difference between the longest and shortest delivery times for all orders?](#5-what-was-the-difference-between-the-longest-and-shortest-delivery-times-for-all-orders)
-- 6. What was the average speed for each runner for each delivery and do you notice any trend for these values?
+- [6. What was the average speed for each runner for each delivery and do you notice any trend for these values?](#6-what-was-the-average-speed-for-each-runner-for-each-delivery-and-do-you-notice-any-trend-for-these-values)
 - 7. What is the successful delivery percentage for each runner?
 
 ## A. Pizza Metrics
