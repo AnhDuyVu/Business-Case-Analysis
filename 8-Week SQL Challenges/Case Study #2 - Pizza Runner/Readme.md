@@ -379,6 +379,39 @@ order by registration_week asc;
 On week 1 of Jan 2021, 2 runners has signed up
 On week 2 and 3 of Jan 2021, 1 runners has signed up
 
+### 2. What was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order?
+````sql
+with pickup_order_duration_time as (Select *,
+       to_timestamp(pickup_time,'YYYY-MM-DD HH24:MI:SS') as pickup_time_timestamp,
+       DATE_PART('minute',to_timestamp(pickup_time,'YYYY-MM-DD HH24:MI:SS') - order_time) as pickup_order_duration_time
+from customer_orders_temp as orders
+join runner_orders_temp as runner on orders.order_id = runner.order_id)
+Select runner_id,
+       avg(pickup_order_duration_time) as average_time_to_Pizza_Runner_HQ
+from pickup_order_duration_time
+group by runner_id
+order by runner_id asc;
+````
+#### Steps:
+1. Merge table ustomer_orders_temp with runner_orders_temp on order_id to get pickup_time.
+2. From merge table, extract pickup_time, duration_time = pickup_time - order_time.
+3. Create a CTE table name 'pickup_order_duration_time'.
+4. From 'pickup_order_duration_time' table group information by runner_id.
+5. Calculate average picup_order_duration_time to answer what was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order.
+6. Order by runner_id ascending order.
+
+#### Results:
+| runner_id | average_time_to_pizza_runner_hq |
+| --------- | ------------------------------- |
+| 1	    | 15.333333333333334              |
+| 2	    | 15.833333333333334              |
+| 3	    | 3.5                             |
+
+Runner 1 took average 15.33 minutes to get to pizza runner HQ to pickup the order
+Runner 2 took average 15.83 minutes to get to pizza runner HQ to pickup the order
+Runner 3 took average 3.5 minutes to get to the pizza runner HQ to pickup the order
+
+
 
 
 
