@@ -105,6 +105,16 @@ Other tables I keep the same schema.
 
 - [10. What was the volume of orders for each day of the week?](#10-what-was-the-volume-of-orders-for-each-day-of-the-week)
 
+## B. Runner and Customer Experience
+- 1. How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)
+- 2. What was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order?
+- 3. Is there any relationship between the number of pizzas and how long the order takes to prepare?
+- 4. What was the average distance travelled for each customer?
+- 5. What was the difference between the longest and shortest delivery times for all orders?
+- 6. What was the average speed for each runner for each delivery and do you notice any trend for these values?
+- 7. What is the successful delivery percentage for each runner?
+
+## A. Pizza Metrics
 ### 1. How many pizzas were ordered?
 
 ````sql
@@ -345,8 +355,29 @@ order by total_pizza_ordered desc;
 
 Monday and Friday are the highest day for orders of the week with 5 orders.
 
- 
+## B. Runner and Customer Experience
+### 1. How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)
+````sql
+Select 
+       extract(week from registration_date) as registration_week,
+       count(runner_id) as count_runners
+from pizza_runner.runners
+group by extract(week from registration_date)
+order by registration_week asc;
+````
+#### Steps:
+1. Group weeks from registration_date
+2. Extract week from registration_date and count number of runner_id by week to get answer how many runners signed up for each 1 week period.
 
+#### Results:
+| registration_week | count_runners |
+| ----------------- | ------------- |
+| 1       	    | 2             |
+| 2	            | 1             |
+| 3                 | 1             |
+
+On week 1 of Jan 2021, 2 runners has signed up
+On week 2 and 3 of Jan 2021, 1 runners has signed up
 
 
 
