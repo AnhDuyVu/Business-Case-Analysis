@@ -411,7 +411,43 @@ Runner 1 took average 15.33 minutes to get to pizza runner HQ to pickup the orde
 Runner 2 took average 15.83 minutes to get to pizza runner HQ to pickup the order
 Runner 3 took average 3.5 minutes to get to the pizza runner HQ to pickup the order
 
+### 3. Is there any relationship between the number of pizzas and how long the order takes to prepare?
+````sql
+with pizza_order as (Select orders.order_id,
+                            count(orders.order_id) as pizza_order,
+                            order_time,
+                            pickup_time,
+                            abs(date_part('minute',to_timestamp(pickup_time,'YYYY-MM-DD HH24:MI:SS') - 
+                                          order_time)) as order_prepare_time
+from customer_orders_temp as orders
+join runner_orders_temp as runner on orders.order_id = runner.order_id
+where distance!=''
+group by orders.order_id, order_time, pickup_time )
+Select pizza_order,
+       avg(order_prepare_time) as average_order_prepare_in_minutes
+from pizza_order
+group by pizza_order
+order by pizza_order asc;
+````
+#### Steps:
+1. To take the compare between the number of pizzas and how long the order takes to prepare, we compare the the number of pizzas and average order prepare time to find out any relationship
+2. Merge table customer_orders_temp and runner_orders_temp on order_id
+3. Filter the information within distance is not null
+4. Group by order_id, order_time, pickup_time
+5. Count the number of pizza_order and extract minutes from prepare_time = pickup_time - order_time
+6. Create a CTE table name 'pizza_order'
+7. From 'pizza_order' group by pizza_order
+8. Extract pizza_order, calcuate average order_prepare_time to answer Is there any relationship between the number of pizzas and how long the order takes to prepar
 
+#### Results:
+
+| pizza_order | average_order_prepare_in_minutes |
+| ----------- | -------------------------------- |
+| 1    	      | 12                               |
+| 2	      | 18                               |
+| 3	      | 29                               |
+
+As result, there is a correlation between the number of pizza orders with the prepare time of orders. We can see as pizza order increase, the average_rder_prepare increase.
 
 
 
