@@ -13,7 +13,7 @@ On-hand Analyst Practice Projects
 
 Dataset | Data Link | Project Link | Project Descriptions
 --- | ---| ---| ---|
-Online Retail Data Set | [Online Retail](https://www.kaggle.com/datasets/tunguz/online-retail) | | Analyze customer purchasing behavior to uncover insights that help the company choose appropriate sales policies from real data through Google BigQuery_ Cohort Analysis
+Online Retail Data Set | [Online Retail](https://www.kaggle.com/datasets/tunguz/online-retail) | [Cohort Analysis for Online Retail Company] | Analyze customer purchasing behavior to uncover insights that help the company choose appropriate sales policies from real data through Google BigQuery_ Cohort Analysis
 8-week SQL Challenges | [Data set and questions](https://8weeksqlchallenge.com/) | [8-week challenges](https://github.com/AnhDuyVu/Data-Analysis-Projects/tree/main/8-Week%20SQL%20Challenges) | Practice ad-hoc tasks through 8-week SQL challenges
 
 # PowerBI
