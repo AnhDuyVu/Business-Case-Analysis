@@ -50,3 +50,6 @@ The company would like to know the behaviour of purchase from customer after 2 y
 
 ## 2. Retention Cohort
 ![Retention Cohort](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/2.%20retention_cohort_picture.png)
+
+## 3. Churn Cohort
+![Churn Cohort](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/3.churn_cohort_picture.png)
