@@ -62,3 +62,31 @@ The company would like to know the behaviour of purchase from customer after 2 y
 ![AOV table](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/AOV_table_1.png)
 ![AOV table 2](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/AOV_table_2.png)
 
+# 6. Insights from analysis
+
+Analyzing customer purchasing behavior with an online retail shop in the years 2010 and 2011:
+
+**Horizontal Analysis:**
+
+1. From January to October 2010, customers hardly return to make purchases immediately after their first purchase (the rate of returning in the second month after the first month is very low, 0-6%).
+
+2. During this period, as the company is newly established, the market reach might be low, leading to mostly new customers who tend to make a one-time purchase to experience the product.
+Starting from December 2010, there are returning customers in the second month after their first purchase (in January 2011, 33% of December 2010 customers return to make a purchase).
+
+3. The months of June, July, and November after the first purchase fall within the summer period (May-July) and the year-end holiday season (November-December), where the number of returning customers increases significantly. For instance, in June following October 2010, the returning customer rate increases by 7% from 33% to 40%, contributing to 63% revenue compared to October 2010. In July following December 2010, the returning customer rate increases by 6% from 30% to 36%, contributing to 76% revenue compared to December 2010. During the year-end in December following October 2010, the returning customer rate increases by 12% from 23% to 35%, contributing to 81% revenue compared to October 2010, and in December following December 2010, the returning customer rate increases by 10% from 29% to 39%, contributing to 81% revenue compared to December 2010.
+
+**Vertical Analysis:**
+
+1. From January to October 2010, the number of new customers fluctuates each month, with both increases and decreases. By October 2010, the number of customers decreases, with only 40 new customers compared to 95 in January 2010, a decrease of 55 customers.
+
+2. At the end of 2010, the number of new customers increases dramatically from 270 in December 2010 to 543 new customers in January 2011.
+
+3. In 2011, the number of new customers sharply decreases by December 2011, with only 31 new customers compared to 543 at the beginning of 2011, a decrease of 512 customers.
+
+**Trends in customer purchasing:**
+Existing customers tend to order a large quantity but with low order values, while new customers tend to order high-value items.
+
+Through cohort analysis, it is evident that the current business situation is not favorable, with a downward trend in returning customer rates. The company needs to focus on peak seasons, namely May to July and the year-end months of November and December. Additionally:
+
+For existing customers: Implement promotions, bundling high-value items to increase the Average Order Value (AOV) per order, thus generating more profit for the company. Also, prioritize loyalty programs and rewards to enhance the returning customer rate.
+For new customers: Launch attractive promotions for low-value items, offer discounts for first-time purchases, and improve customer care quality to retain their interest in making future purchases on the website.
