@@ -59,4 +59,4 @@ The company would like to know the behaviour of purchase from customer after 2 y
 ![Revenue Cohort](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/4.revenue_cohort_picture.png)
 
 ## 5. AOV table
-![AOV table]
+![AOV table](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/AOV%20Rate%20Table.png)
