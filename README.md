@@ -11,10 +11,10 @@ Welcome to my data portfolio! Here, I document a summary of my hand-on projects 
         
 # SQL
 
-Dataset | Project Links | Project Descriptions
---- | ---| ---| 
-Brazillian E-Commerce Public Dataset by Olist | [Cohort Analysis by SQL in Azure Data Studio of Olist Dataset](https://github.com/AnhDuyVu/Data-Analysis-Projects/blob/5e15d752e140e2a268420d6feb37f51b5f210a25/Cohort%20Analysis%20by%20SQL%20in%20Azure%20Data%20Studio%20of%20Olist%20Dataset/Readme.md) | Exploratory Data Analysis and analyze customer return rate through cohort analysis to uncover insights about customer behaviour using MySQL 
-8-week SQL Challenges | [8-week SQL Challenges](https://github.com/AnhDuyVu/Data-Analysis-Projects/tree/main/8-Week%20SQL%20Challenges) | It showcases my ability to tackle various SQL challenges and demonstrates my proficiency in SQL query writing and problem-solving skills.
+Dataset | Data Links | Project Links | Project Descriptions
+--- | ---| ---| ---|
+Brazillian E-Commerce Public Dataset by Olist | [https://www.kaggle.com/datasets/tunguz/online-retail] | | Phân tích hành vi mua hàng của khách hàng để tìm ra insight giúp công ty lựa chọn chính sách bán hàng phù hợp thông qua google bigquerry
+8-week SQL Challenges | [8-week SQL Challenges](https://github.com/AnhDuyVu/Data-Analysis-Projects/tree/main/8-Week%20SQL%20Challenges) | Luyện tập ad-hoc tasks thông qua 8-week SQL challenges
 
 # PowerBI
 
