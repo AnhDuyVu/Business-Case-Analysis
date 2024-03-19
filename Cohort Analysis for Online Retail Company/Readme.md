@@ -30,10 +30,16 @@ The company would like to know the behaviour of purchase from customer after 2 y
 
 # To-do List
 **1. Exploratory Data Analysis**
+
 **2. Build Customer Cohort**
+
 **3. Build Retention Cohort**
+
 **4. Build Churn Cohort**
+
 **5. Build Revenue Cohort**
+
 **6. Calculate AOV Rate**
+
 **7. Insight**
 
