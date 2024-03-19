@@ -42,7 +42,7 @@ The company would like to know the behaviour of purchase from customer after 2 y
 **6. Calculate AOV Rate**
 
 **7. Insights from analysis**
-# Code
+# SQL Code in bigquerry
 
 # Result
 1. Customer Cohort
