@@ -20,7 +20,7 @@ Online Retail Data Set | [Online Retail](https://www.kaggle.com/datasets/tunguz/
 
 Dataset | Data Link | Project Link | Project Descriptions
 ---| ---| ---| --- |
-1.Global Superstore Dataset | [Global Superstore](https://www.kaggle.com/datasets/shekpaul/global-superstore) | |Sale Analysis Dashboard
+1.Global Superstore Dataset | [Global Superstore](https://www.kaggle.com/datasets/shekpaul/global-superstore) | [Sale Analysis Dashboard](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Sale%20Analysis%20for%20Global%20Superstore/README.md)|Sale Analysis Dashboard
 
 # Python
 Dataset | Data Link | Project Link | Project Descriptions |Libraries
