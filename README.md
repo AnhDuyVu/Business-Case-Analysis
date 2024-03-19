@@ -20,7 +20,7 @@ Brazillian E-Commerce Public Dataset by Olist | [https://www.kaggle.com/datasets
 
 Dataset | Links of Dataset | Project Details
 ---| ---| ---| 
-1.Global Superstore Dataset | https://goo.by/nDpsn | Sale Analysis Dashboard
+1.Global Superstore Dataset | https://goo.by/nDpsn](https://www.kaggle.com/datasets/shekpaul/global-superstore) | Sale Analysis Dashboard
 
 # Python
 Dataset | Project Links | Project Description | Libraries
