@@ -45,5 +45,5 @@ The company would like to know the behaviour of purchase from customer after 2 y
 # SQL Code in bigquerry
 
 # Result
-## Customer Cohort
+## 1. Customer Cohort
 
