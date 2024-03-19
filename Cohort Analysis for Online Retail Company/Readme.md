@@ -46,4 +46,4 @@ The company would like to know the behaviour of purchase from customer after 2 y
 
 # Result
 ## 1. Customer Cohort
-https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/1.%20customer_cohort_picture.png)https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/1.%20customer_cohort_picture.png
+(https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/1.%20customer_cohort_picture.png)https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/1.%20customer_cohort_picture.png)
