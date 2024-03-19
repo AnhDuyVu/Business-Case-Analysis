@@ -14,12 +14,12 @@ Welcome to my data portfolio! Here, I document a summary of my hand-on projects 
 Dataset | Data Link | Project Link | Project Descriptions
 --- | ---| ---| ---|
 Online Retail Data Set | https://www.kaggle.com/datasets/tunguz/online-retail | | Phân tích hành vi mua hàng của khách hàng để tìm ra insight giúp công ty lựa chọn chính sách bán hàng phù hợp từ dữ liệu thật thông qua google bigquerry
-8-week SQL Challenges | https://8weeksqlchallenge.com/ | https://github.com/AnhDuyVu/Data-Analysis-Projects/tree/main/8-Week%20SQL%20Challenges | Luyện tập ad-hoc tasks thông qua 8-week SQL challenges
+8-week SQL Challenges | https://8weeksqlchallenge.com/ | [8-week challenges]https://github.com/AnhDuyVu/Data-Analysis-Projects/tree/main/8-Week%20SQL%20Challenges | Luyện tập ad-hoc tasks thông qua 8-week SQL challenges
 
 # PowerBI
 
 Dataset | Data Link | Project Link | Project Details
----| ---| ---| 
+---| ---| ---| --- |
 1.Global Superstore Dataset | https://www.kaggle.com/datasets/shekpaul/global-superstore | Sale Analysis Dashboard
 
 # Python
