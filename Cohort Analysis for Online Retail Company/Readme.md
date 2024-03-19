@@ -84,6 +84,7 @@ Starting from December 2010, there are returning customers in the second month a
 3. In 2011, the number of new customers sharply decreases by December 2011, with only 31 new customers compared to 543 at the beginning of 2011, a decrease of 512 customers.
 
 **Trends in customer purchasing:**
+
 Existing customers tend to order a large quantity but with low order values, while new customers tend to order high-value items.
 
 Through cohort analysis, it is evident that the current business situation is not favorable, with a downward trend in returning customer rates. The company needs to focus on peak seasons, namely May to July and the year-end months of November and December. Additionally:
