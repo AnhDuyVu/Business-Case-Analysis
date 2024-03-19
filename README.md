@@ -1,5 +1,5 @@
 ## 🗺 **Duy's Portfolio**
-Welcome to my data portfolio! Here, I document a summary of my hand-on projects in the data field
+On-hand Analyst Practice Projects
 
 ## 📚 **Table of Contents**
 - [SQL](#SQL)
