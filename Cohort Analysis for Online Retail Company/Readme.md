@@ -46,4 +46,4 @@ The company would like to know the behaviour of purchase from customer after 2 y
 
 # Result
 ## 1. Customer Cohort
-
+![Alt text](url_of_your_image)
