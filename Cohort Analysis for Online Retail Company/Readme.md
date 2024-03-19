@@ -27,3 +27,13 @@ Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail indu
 
 # Business Case
 The company would like to know the behaviour of purchase from customer after 2 years running business to evaluate business performance as well as promote sale strategies in the future.
+
+# To-do List
+**1. Exploratory Data Analysis**
+**2. Build Customer Cohort**
+**3. Build Retention Cohort**
+**4. Build Churn Cohort**
+**5. Build Revenue Cohort**
+**6. Calculate AOV Rate**
+**7. Insight**
+
