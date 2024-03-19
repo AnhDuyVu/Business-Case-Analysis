@@ -14,7 +14,7 @@ Welcome to my data portfolio! Here, I document a summary of my hand-on projects 
 Dataset | Data Links | Project Links | Project Descriptions
 --- | ---| ---| ---|
 Brazillian E-Commerce Public Dataset by Olist | [https://www.kaggle.com/datasets/tunguz/online-retail] | | Phân tích hành vi mua hàng của khách hàng để tìm ra insight giúp công ty lựa chọn chính sách bán hàng phù hợp thông qua google bigquerry
-8-week SQL Challenges | [8-week SQL Challenges](https://github.com/AnhDuyVu/Data-Analysis-Projects/tree/main/8-Week%20SQL%20Challenges) | Luyện tập ad-hoc tasks thông qua 8-week SQL challenges
+8-week SQL Challenges | 8-week SQL Challenges](https://github.com/AnhDuyVu/Data-Analysis-Projects/tree/main/8-Week%20SQL%20Challenges | | Luyện tập ad-hoc tasks thông qua 8-week SQL challenges
 
 # PowerBI
 
