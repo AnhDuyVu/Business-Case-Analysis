@@ -6,8 +6,8 @@ Welcome to my Data Analysis Projects Portfolio! This repository showcases three 
 Project | Data Link | Situation | Actions | Insights and Recommendations 
 --- | ---| ---| ---| ---|
 [SQL]() |  [Online Retail](https://www.kaggle.com/datasets/tunguz/online-retail) |
-[Python]() | | | | | [Global Superstore](https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset) |
-[PowerBI]() | | | | | [Global Superstore](https://www.kaggle.com/datasets/shekpaul/global-superstore) |
+[Python]() | [Global Superstore](https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset) |
+[PowerBI]() | [Global Superstore](https://www.kaggle.com/datasets/shekpaul/global-superstore) |
 # SQL
 
 Dataset | Data Link | Project Link | Project Descriptions
