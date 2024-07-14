@@ -3,7 +3,7 @@ Welcome to my Data Analysis Projects Portfolio! This repository showcases three 
 
 ## 📚 **Projects**
 
-Project | Data Link | Situation | Actions | Insights and Recommendations 
+Projects | Data Link | Situation | Actions | Insights and Recommendations 
 --- | ---| ---| ---| ---|
 [SQL]() |  [Online Retail](https://www.kaggle.com/datasets/tunguz/online-retail) |
 [Python]() | [Global Superstore](https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset) |
