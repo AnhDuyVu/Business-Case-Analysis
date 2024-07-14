@@ -37,6 +37,10 @@ The following sub-categories have the highest Profit Margin: Paper (24.24%), Lab
 
 Notably, Tables are the only product with a negative Profit Contribution (-4.45%) despite having a relatively high revenue (749K).
 
+# 3.4 Recommendations
+Conduct research to understand the reasons for the usual revenue decline at the beginning of the year in order to develop appropriate business strategies.
+Continue to leverage business strategies in major markets such as APAC and EU, while expanding and exploring strategies for developing potential markets (with high CAGR) such as Canada and Africa. In the US, although it is a large market, the growth rate is slow, so a new business strategy is needed.
+
 # 4. Data Model
 <p align="center"> 
 <img src="https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/PowerBI%20Project/Data%20Modelling.png"
