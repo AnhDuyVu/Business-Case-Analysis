@@ -6,12 +6,12 @@ The objectives of this project are:
 
 1. To segment customers based on their recency, frequency, and monetary value.
 2. To identify the most valuable customer segments.
-3. To develop strategies for targeted marketing and customer retention.
+3. To identify strategies for targeted marketing and customer retentions.
 
 # 3. Results
 1. Created an RFM segmentation model to categorize customers into different segments.
 2. Identified high-value customer segments with high recency, frequency, and monetary scores.
-3. Developed targeted marketing strategies to improve customer engagement and retention.
+3. Identified targeted marketing strategies to improve customer engagement and retention.
 
 # 4. Insights
 Suggest recommendation for marketing team to target customers in campaign
