@@ -9,7 +9,7 @@ The objectives of this project are:
 3. To identify high-potential markets for expansion and key products for strategic focus.
 
 # 3. Results
-General Business Situation
+# 3.1 General Business Situation
 
 In general, revenue has been steadily increasing from 2011 to the end of 2014, with a compound annual growth rate (CAGR) of 17.45%. However, within each year, revenue tends to increase steadily across all categories until the fourth quarter, after which it sharply declines in the first quarter of the following year.
 
@@ -19,7 +19,7 @@ The value of individual orders does not vary significantly over the years, while
 
 The B2C customer group is the main source of revenue for the company (51%), followed by Corporate (29.4%) and Home Office (18.89%). However, in recent years, revenue from this customer group has been trending slightly downward. The revenue structure in 2014 indicates a rising trend in revenue from the Home Office customer group.
 
-Market
+# 3.2 Market
 
 The top three markets that generate the main revenue are APAC (3.59M, accounting for 27.66%), EU (2.94M, accounting for 22.77%), and US (2.3M, accounting for 19.14%). The distribution of the three categories is fairly even in most markets, but products in the Technology category still hold the largest share.
 
@@ -29,7 +29,7 @@ In terms of compound annual growth rate (CAGR), Canada is experiencing the stron
 
 Considering the countries, the United States is the country that generates the highest revenue (2.2M), which is 2.4 times higher than the second-ranked country.
 
-Products
+# 3.3 Products
 
 All categories of the company have a seasonal nature, with significant revenue growth towards the end of the year. The Technology and Office Supplies categories have the highest Gross Profit Margin (13.99% and 13.69%, respectively), which is double that of the Furniture category with a margin of only 6.94%. The following sub-categories generate the highest revenue: Phones (1.7M), Copiers (1.5M), Chairs (1.5M), and Bookcases (1.4M).
 
