@@ -2,13 +2,11 @@
 Welcome to my Data Analysis Projects Portfolio! This repository showcases three comprehensive data analysis projects that demonstrate my skills and expertise in SQL, Python, and Power BI. Each project includes detailed documentation, code, and visualizations to provide clear insights and useful recommendations.
 
 ## 📚 **Table of Contents**
-- [SQL](#SQL)
-- [PowerBI](#PowerBI)
-- [Python](#Python)
-<p align="center"> 
-<img src="https://www.clicdata.com/wp-content/uploads/2021/06/transfrom-data-actionable-insights.jpg"
-</p>
-        
+Project | Situation | Actions | Insights and Recommendations | Data Link 
+--- | --- | --- | ---|
+[SQL]() | | | | [Online Retail](https://www.kaggle.com/datasets/tunguz/online-retail)
+[Python]() | | | | [Global Superstore](https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset)
+[PowerBI]() | | | | [Global Superstore](https://www.kaggle.com/datasets/shekpaul/global-superstore)
 # SQL
 
 Dataset | Data Link | Project Link | Project Descriptions
