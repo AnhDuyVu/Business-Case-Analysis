@@ -1,7 +1,7 @@
 # Business Case
 ## 1. Introduction
 
-The company would like to know the behaviour of purchase from customer after 2 years running business to evaluate business performance as well as promote sale strategies in the future. This project was undertaken to analyze user behavior over time by grouping them into cohorts based on their signup dates. Cohort Analysis helps identify trends, evaluate the effectiveness of marketing campaigns, and develop strategies to improve user experience and retention.
+The company would like to know the behaviour of purchase from customer after 2 years 2010, 2011 running business to evaluate business performance as well as promote sale strategies in the future. This project was undertaken to analyze user behavior over time by grouping them into cohorts based on their signup dates. Cohort Analysis helps identify trends, evaluate the effectiveness of marketing campaigns, and develop strategies to improve user experience and retention.
 
 ## 2. Objectives
 
@@ -11,7 +11,8 @@ The objectives of this project are:
 2. To evaluate user retention rates over different time periods.
 3. To identify factors affecting user retention.
 
-
+## 3. Insights:
+Customer purchase behavior at an online shop in 2010 and 2011
 
 # About Dataset
 
