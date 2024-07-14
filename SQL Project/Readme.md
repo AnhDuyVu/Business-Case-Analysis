@@ -11,7 +11,7 @@ The objectives of this project are:
 2. To evaluate user retention rates over different time periods.
 3. To identify factors affecting user retention.
 
-## 3. Insights:
+## 3. Results:
 Customer purchase behavior at an online shop in 2010 and 2011
 
 # About Dataset
