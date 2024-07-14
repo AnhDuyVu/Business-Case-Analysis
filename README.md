@@ -1,5 +1,5 @@
 ## 🗺 **Duy's Portfolio**
-On-hand Analyst Practice Projects
+Welcome to my Data Analysis Projects Portfolio! This repository showcases three comprehensive data analysis projects that demonstrate my skills and expertise in SQL, Python, and Power BI. Each project includes detailed documentation, code, and visualizations to provide clear insights and useful recommendations.
 
 ## 📚 **Table of Contents**
 - [SQL](#SQL)
