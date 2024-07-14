@@ -41,3 +41,8 @@ Notably, Tables are the only product with a negative Profit Contribution (-4.45%
 <p align="center"> 
 <img src="https://github.com/AnhDuyVu/Data-Analysis-Projects/blob/main/Sale%20Analysis%20for%20Global%20Superstore/Data%20Modelling.png"
 </p>
+
+# 5. Sale Dashboard
+<p align="center"> 
+<img src="https://github.com/AnhDuyVu/Data-Analysis-Projects/blob/main/Sale%20Analysis%20for%20Global%20Superstore/Sale%20Analysis%20Dashboard.png"
+</p>
