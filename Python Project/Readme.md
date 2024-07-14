@@ -1,4 +1,4 @@
-# 1. Introduction
+# 1. Situation
 This project aims to analyze customer behavior using the RFM (Recency, Frequency, Monetary) model to segment customers and understand their purchasing patterns. The RFM model helps in identifying valuable customer segments, developing targeted marketing strategies, and improving customer retention.
 
 # 2. Objectives
