@@ -13,7 +13,7 @@ The objectives of this project are:
 2. Identified high-value customer segments with high recency, frequency, and monetary scores.
 3. Developed targeted marketing strategies to improve customer engagement and retention.
 
-# 4. Insigts
+# 4. Insights
 Suggest recommendation for marketing team to target customers in campaign
 The potential customer segments for the company's marketing campaign are as follows:
 
