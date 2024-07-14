@@ -36,3 +36,8 @@ All categories of the company have a seasonal nature, with significant revenue g
 The following sub-categories have the highest Profit Margin: Paper (24.24%), Labels (20.45%), Envelopes (17.32%), Accessories (17.29%), and Copier (17.13%). However, among them, only Copiers and Accessories have high revenue. The remaining products belong to the five lowest revenue-generating products in the company.
 
 Notably, Tables are the only product with a negative Profit Contribution (-4.45%) despite having a relatively high revenue (749K).
+
+# 4. Data Model
+<p align="center"> 
+<img src="https://github.com/AnhDuyVu/Data-Analysis-Projects/blob/main/Sale%20Analysis%20for%20Global%20Superstore/Data%20Modelling.png"
+</p>
