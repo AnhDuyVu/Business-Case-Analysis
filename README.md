@@ -1,7 +1,7 @@
 ## 🗺 **Duy's Portfolio**
 Welcome to my Data Analysis Projects Portfolio! This repository showcases three comprehensive data analysis projects that demonstrate my skills and expertise in SQL, Python, and Power BI. Each project includes detailed documentation, code, and visualizations to provide clear insights and useful recommendations.
 
-## 📚 **Table of Contents**
+## 📚 **Projects**
 
 Project | Data Link | Situation | Actions | Insights and Recommendations 
 --- | ---| ---| ---| ---|
