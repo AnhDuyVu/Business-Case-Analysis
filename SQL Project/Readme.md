@@ -76,7 +76,7 @@ Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail indu
 
 ## 5. AOV table
 ![AOV table](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/SQL%20Project/AOV_table_1.png)
-![AOV table 2](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/AOV_table_2.png)
+![AOV table 2](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/SQL%20Project/AOV_table_2.png)
 
 # 6. Insights from analysis
 
