@@ -18,7 +18,7 @@ He has prepared for us an entity relationship diagram of his database design but
 
 # Entity Relationship Diagram
 
-![image]()
+![image](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/SQL%20Project/Ad-hoc%20analysis%20practice/2.%20Case%20Study%20%232%20-%20Pizza%20Runner/Entity%20Relationship%20Diagram.png)
 
 
 
