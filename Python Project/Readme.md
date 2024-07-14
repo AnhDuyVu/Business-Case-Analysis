@@ -25,3 +25,6 @@ The potential customer segments for the company's marketing campaign are as foll
 
 4. Cannot Lose Them: This customer segment has the lowest proportion (4.7%), but they have a higher purchase frequency than the "Loyal" segment (4.78 > 7.75). However, these customers made transactions 265 days ago. Therefore, new campaign strategies based on rewards, discounts, and special incentives for this customer group can be planned to attract and retain them. These strategies could be designed to make them feel special and appealing, ultimately encouraging their loyalty.
 
+# 5. Python code
+[Python code](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Python%20Project/RFM_analysis_project_global_superstore_by_Python.ipynb)
+
