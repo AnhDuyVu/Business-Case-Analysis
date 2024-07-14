@@ -1,3 +1,18 @@
+# Business Case
+***1. Introduction***
+
+The company would like to know the behaviour of purchase from customer after 2 years running business to evaluate business performance as well as promote sale strategies in the future. This project was undertaken to analyze user behavior over time by grouping them into cohorts based on their signup dates. Cohort Analysis helps identify trends, evaluate the effectiveness of marketing campaigns, and develop strategies to improve user experience and retention.
+
+*** 2. Objectives ***
+
+The objectives of this project are:
+
+1. To analyze user groups based on their signup dates.
+2. To evaluate user retention rates over different time periods.
+3. To identify factors affecting user retention.
+
+
+
 # About Dataset
 
 **Source:**
@@ -25,8 +40,7 @@ A decision-making framework for precision marketing, Zhen You, Yain-Whar Si, Def
 **Citation Request:**
 Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail industry: A case study of RFM model-based customer segmentation using data mining, Journal of Database Marketing and Customer Strategy Management, Vol. 19, No. 3, pp. 197â€“208, 2012 (Published online before print: 27 August 2012. doi: 10.1057/dbm.2012.17).
 
-# Business Case
-The company would like to know the behaviour of purchase from customer after 2 years running business to evaluate business performance as well as promote sale strategies in the future.
+
 
 # To-do List
 **1. Exploratory Data Analysis**
