@@ -58,7 +58,7 @@ Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail indu
 **7. Insights from analysis**
 # SQL Code in BigQuerry
 
-[SQL Code](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/SQLcode.sql)
+[SQL Code](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/SQL%20Project/SQL%20code.sql)
 
 # Result
 ## 1. Customer Cohort
