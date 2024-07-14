@@ -42,7 +42,7 @@ Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail indu
 
 
 
-# To-do List
+# Data Analysis 
 **1. Exploratory Data Analysis**
 
 **2. Build Customer Cohort**
@@ -56,7 +56,7 @@ Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail indu
 **6. Calculate AOV Rate**
 
 **7. Insights from analysis**
-# SQL Code in bigquerry
+# SQL Code in BigQuerry
 
 [SQL Code](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/Cohort%20Analysis%20for%20Online%20Retail%20Company/SQLcode.sql)
 
