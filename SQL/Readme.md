@@ -66,7 +66,7 @@ Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail indu
 ![Customer Cohort](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/SQL/1.%20Customer_Cohort_picture.png)
 
 ## 2. Retention Cohort
-![Retention Cohort](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/SQL%20Project/2.%20Retention_Cohort_picture.png)
+![Retention Cohort](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/SQL/2.%20Retention_Cohort_picture.png)
 
 ## 3. Churn Cohort
 ![Churn Cohort](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/SQL%20Project/3.%20Churn_Cohort_picture.png)
