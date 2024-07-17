@@ -43,7 +43,7 @@ Continue to leverage business strategies in major markets such as APAC and EU, w
 
 # 4. Data Model
 <p align="center"> 
-<img src="https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/PowerBI%20Project/Data%20Modelling.png"
+<img src="https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/PowerBI/Data%20Model.png"
 </p>
 
 # 5. Sale Dashboard
