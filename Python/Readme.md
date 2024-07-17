@@ -28,9 +28,9 @@ The potential customer segments for the company's marketing campaign are as foll
 
 # 5. Steps for RFM Analysis
 
-1. Import necessary library
+***1. Import necessary library
 
-2. Exploratory Data Analysis:
+***2. Exploratory Data Analysis:
 
 Overvỉew the data:Taking an overview of the data types, the number of columns, and the number of data rows to see if there is a need to change data types to align with the analysis, is it necessary?
 
