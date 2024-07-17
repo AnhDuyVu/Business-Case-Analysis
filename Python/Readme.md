@@ -26,6 +26,57 @@ The potential customer segments for the company's marketing campaign are as foll
 
 4. Cannot Lose Them: This customer segment has the lowest proportion (4.7%), but they have a higher purchase frequency than the "Loyal" segment (4.78 > 7.75). However, these customers made transactions 265 days ago. Therefore, new campaign strategies based on rewards, discounts, and special incentives for this customer group can be planned to attract and retain them. These strategies could be designed to make them feel special and appealing, ultimately encouraging their loyalty.
 
-# 5. Python code
-[Python code]()
+# 5. Steps for RFM Analysis
+
+1. Import necessary library
+
+2. Exploratory Data Analysis:
+
+Overvỉew the data:Taking an overview of the data types, the number of columns, and the number of data rows to see if there is a need to change data types to align with the analysis, is it necessary?
+
+Detect and solve missing values: Check if there are any missing values in the data, and determine whether these missing values impact the analysis results or not.
+
+Detect and solve outlier values: Check if there are any outlier values in the data and assess whether these outlier values impact the analysis results or not.
+
+3. Preparing data for RFM Analysis
+
+4. Calculate RFM metric
+
+Recency: For each customer group, when was the most recent purchase made?
+
+Frequency: What is the frequency of purchases for each customer group?
+
+Monetary: How much revenue does each customer group generate?
+
+5. Customer segmentation base on RFM score
+
+Grouping customers based on RFM scores:
+
+Champions:The customers who have made the most recent purchases, most frequent purchases, and spent the most.
+
+Loyal customers: Frequent buyers who are often interested in promotional campaigns.
+
+Potential loyalist: Customers who have recent activity with average frequency.
+
+New/Recent customers: Most recent buyers but not frequent shoppers.
+
+Promising: Those who have shopped recently but haven't spent much.
+
+Needs attention: The value of the most recent purchase, frequency, and monetary value are around average. It's possible that they haven't made a purchase very recently.
+
+About to sleep: Frequency and recent frequency are below average. These customers might churn if there are no actions to re-engage them.
+
+At risk: Customers who haven't made a purchase in a long time and need to be encouraged to start shopping again.
+
+Can’t lose them: Frequent buyers who haven't returned for a while.
+
+Hibernating: Last purchase was a long time ago, and the number of orders is low. They may be at risk of churn.
+
+Lost: Customers who have already churned/left us.
+
+6. RFM Analysis and Customer segmentation visualization
+
+7. Suggest recommendation for marketing team to target customers in campaign
+
+[RFM analysis code]()
 
