@@ -52,5 +52,5 @@ Continue to leverage business strategies in major markets such as APAC and EU, w
 </p>
 
 # 6. Sale Dashboard File
-[Sale Dashboard](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/PowerBI/Sale%20Dashboard.pbix)
+[Download Sale Dashboard at here](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/PowerBI/Sale%20Dashboard.pbix)
 
