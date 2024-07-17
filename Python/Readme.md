@@ -78,5 +78,5 @@ Lost: Customers who have already churned/left us.
 
 ***7. Suggest recommendation for marketing team to target customers in campaign***
 
-[RFM analysis code]()
+[RFM analysis code](https://colab.research.google.com/drive/1rD8ZqqpLXFK3OvdLSl0C8UY3w9hw3NY4)
 
