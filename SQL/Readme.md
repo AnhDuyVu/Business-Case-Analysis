@@ -73,7 +73,7 @@ Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail indu
 
 ## 4. Revenue Cohort
 
-![Revenue Cohort](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/SQL%20Project/4.%20Revenue_Cohort_picture.png)
+![Revenue Cohort](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/SQL/4.%20Revenue_Cohort_picture.png)
 
 ## 5. AOV table
 ![AOV table](https://github.com/AnhDuyVu/Business-Case-Analysis/blob/main/SQL%20Project/AOV_table_1.png)
