@@ -28,9 +28,9 @@ The potential customer segments for the company's marketing campaign are as foll
 
 # 5. Steps for RFM Analysis
 
-***1. Import necessary library
+***1. Import necessary library***
 
-***2. Exploratory Data Analysis:
+***2. Exploratory Data Analysis:***
 
 Overvỉew the data:Taking an overview of the data types, the number of columns, and the number of data rows to see if there is a need to change data types to align with the analysis, is it necessary?
 
@@ -38,9 +38,9 @@ Detect and solve missing values: Check if there are any missing values in the da
 
 Detect and solve outlier values: Check if there are any outlier values in the data and assess whether these outlier values impact the analysis results or not.
 
-3. Preparing data for RFM Analysis
+***3. Preparing data for RFM Analysis***
 
-4. Calculate RFM metric
+***4. Calculate RFM metric***
 
 Recency: For each customer group, when was the most recent purchase made?
 
@@ -48,7 +48,7 @@ Frequency: What is the frequency of purchases for each customer group?
 
 Monetary: How much revenue does each customer group generate?
 
-5. Customer segmentation base on RFM score
+***5. Customer segmentation base on RFM score***
 
 Grouping customers based on RFM scores:
 
@@ -74,9 +74,9 @@ Hibernating: Last purchase was a long time ago, and the number of orders is low.
 
 Lost: Customers who have already churned/left us.
 
-6. RFM Analysis and Customer segmentation visualization
+***6. RFM Analysis and Customer segmentation visualization***
 
-7. Suggest recommendation for marketing team to target customers in campaign
+***7. Suggest recommendation for marketing team to target customers in campaign***
 
 [RFM analysis code]()
 
