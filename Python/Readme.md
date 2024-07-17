@@ -27,6 +27,7 @@ The potential customer segments for the company's marketing campaign are as foll
 4. Cannot Lose Them: This customer segment has the lowest proportion (4.7%), but they have a higher purchase frequency than the "Loyal" segment (4.78 > 7.75). However, these customers made transactions 265 days ago. Therefore, new campaign strategies based on rewards, discounts, and special incentives for this customer group can be planned to attract and retain them. These strategies could be designed to make them feel special and appealing, ultimately encouraging their loyalty.
 
 # 5. Steps for RFM Analysis
+Follow steps from 1 to 7
 
 ***1. Import necessary library***
 
